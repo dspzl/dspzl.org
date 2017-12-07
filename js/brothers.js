@@ -1,8 +1,8 @@
 var seniors = [ /*{ name:"Patrick Barr", hometown:"Appleton, WI", major:"International Computer Science", username:"barrpt"},*/
   { name:"Lingzhe Cai", hometown:"Philadelphia, PA", major:"Electrical Engineering", username:"cail"},
   { name:"Tevin Crody", hometown:"Angola, IN", major:"Software Engineering", username:"crodyt"},
-  { name:"Matthew Leland Dale", hometown:"Chanhassen, Minnesota", major:"Mechanical Engineering", username:"daleml"},
-  { name:"Bryan Douglas Gish", hometown:"Kansas City, Kansas", major:"Mechanical Engineering", username:"gishbd"},
+  { name:"Matthew Leland Dale", hometown:"Chanhassen, MN", major:"Mechanical Engineering", username:"daleml"},
+  { name:"Bryan Douglas Gish", hometown:"Kansas City, KS", major:"Mechanical Engineering", username:"gishbd"},
   { name:"Caleb Nathaniel Hille", hometown:"Evansville, IN", major:"Electrical Engineering", username:"hillecn"},
   { name:"Jordan Atchinson Knupp", hometown:"Harrisonburg, VA", major:"Computer Science", username:"knuppja"},
   { name:"Jacob Louis Laird", hometown:"Sterling Heights, MI", major:"Computer Science", username:"lairdjl"},
@@ -15,10 +15,10 @@ var seniors = [ /*{ name:"Patrick Barr", hometown:"Appleton, WI", major:"Interna
   { name:"Joseph Ramsey Porter", hometown:"Evansville, IN", major:"Electrical Engineering", username:"porterjr"},
   { name:"Praveen Rammohan", hometown:"Queens, NY", major:"Mechanical Engineering", username:"rammohp"},
   { name:"Jack William Richard", hometown:"Lake Forest, IL", major:"Software Engineering", username:"richarjw"},
-  { name:"Austin John Salisbury", hometown:"Gurnee, IL", major:"Mechanical Engineering", username:"salisbaj"},
+  { name:"Austin John Salisbury", hometown:"Gurnee, IL", major:"Mechanical Engineering/Electrical Engineering", username:"salisbaj"},
   { name:"Avtej Singh Sethi", hometown:"Mumbai, India", major:"Physics", username:"sethias"},
   { name:"Wesley Donald Umbower", hometown:"Valparaiso, IN", major:"Chemical Engineering", username:"umbowewd"},
-  { name:"James Ferguson Usher", hometown:"Syracuse, New York", major:"Computer Engineering", username:"usherj"},
+  { name:"James Ferguson Usher", hometown:"Syracuse, NY", major:"Computer Engineering", username:"usherj"},
   { name:"William Walton York", hometown:"Chattanooga, TN", major:"Software Engineering", username:"yorkww"}
 
 ];
@@ -49,7 +49,7 @@ var juniors = [ { name:"Jarrett Scott Alexander", hometown:"Brownsburg, IN", maj
 
 var sophomores = [ { name:"Evan Neil Ammidown", hometown:"Highlands Ranch, CO", major:"Chemical Engineering", username:"ammidoen"},
     { name:"Isaac Nathaniel Austin", hometown:"Birdseye, IN", major:"Computer Science", username:"austinin"},
-    { name:"Jacob Donald Beckman", hometown:"St. Charles, MO", major:"Software Engineering", username:"beckmaj1"},
+    { name:"Jacob Donald Beckmann", hometown:"St. Charles, MO", major:"Software Engineering", username:"beckmaj1"},
     { name:"Nathan Martin Ciriacks", hometown:"Maribel, WI", major:"Chemical Engineering", username:"ciriacnm"},{ name:"Robert Dilbert DeBerry", hometown:"Upperville, VA", major:"Mechanincal Engineering", username:"deberrr"},
     { name:"Alexander Joseph Deptula", hometown:"Omaha, NE", major:"Chemical Engineering", username:"deptulaj"},
     { name:"Blake Robert Emmert", hometown:"Ferdinand, IN", major:"Computer Engineering", username:"emmertbr"},
