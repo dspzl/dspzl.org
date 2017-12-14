@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Delta Sigma Phi Fraternity | Zeta Lambda Chapter | Rose-Hulman Institute of Technology">
+
+  <link rel="shortcut icon" href="ico/favicon.ico">
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/app.css" media="screen,projection" />
+  {% for path in page.extra_css %}
+    <link type="text/css" rel="stylesheet" href="{{ path }}" media="screen,projection" />
+  {% endfor %}
+
+  <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+  <title>&#916;&#931;&#934; &#918;&#923;</title>
+</head>
+
+<body>
+  <header>
+    <ul id="dropdown-hares" class="dropdown-content">
+      <li><a href="pdf/hare-spring-2008-2009.pdf">Spring 2008-09</a></li>
+      <li><a href="pdf/hare-fall-2009-2010.pdf">Fall 2009-10</a></li>
+      <li><a href="pdf/hare-winter-2009-2010.pdf">Winter 2009-10</a></li>
+      <li><a href="pdf/hare-spring-2009-2010.pdf">Spring 2009-10</a></li>
+      <li><a href="pdf/hare-fall-2010-2011.pdf">Fall 2010-11</a></li>
+      <li><a href="pdf/hare-winter-2010-2011.pdf">Winter 2010-11</a></li>
+      <li><a href="pdf/hare-spring-2012-2013.pdf">Spring 2012-13</a></li>
+      <li><a href="pdf/hare-spring-2013-2014.pdf">Spring 2013-14</a></li>
+      <li><a href="pdf/hare-winter-2016-2017.pdf">Winter 2016-17</a></li>
+    </ul>
+
+    <nav class="green darken-2">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo hide-on-med-and-down" style="">&#916;&#931;&#934; &#918;&#923;</a>
+        <span class="brand-logo center">{{ page.title }}</span>
+        <a href="" data-activates="mobile-menu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul class="right hide-on-med-and-down">
+      	  {% for title in site.navbar_links %}
+          {% assign p = site.pages | where:"title", title | first %}
+        	  <li><a href="{{p.url}}">{{ p.title }}</a></li>
+      	  {% endfor %}
+          <li><a class="dropdown-button" href="" data-activates="dropdown-hares">Hares<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li><a href="/">Home</a></li>
+        	{% for title in site.navbar_links %}
+          {% assign p = site.pages | where:"title", title | first %}
+        	  <li><a href="{{p.url}}">{{ p.title }}</a></li>
+      	  {% endfor %}
+          <ul class="collapsible" data-collapsible="accordian">
+            <li>
+              <div class="collapsible-header green-text text-darken-3">Hares<i class="mdi-navigation-arrow-drop-down right"></i></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="pdf/hare-spring-2008-2009.pdf">Spring 2008-09</a></li>
+                  <li><a href="pdf/hare-fall-2009-2010.pdf">Fall 2009-10</a></li>
+                  <li><a href="pdf/hare-winter-2009-2010.pdf">Winter 2009-10</a></li>
+                  <li><a href="pdf/hare-spring-2009-2010.pdf">Spring 2009-10</a></li>
+                  <li><a href="pdf/hare-fall-2010-2011.pdf">Fall 2010-11</a></li>
+                  <li><a href="pdf/hare-winter-2010-2011.pdf">Winter 2010-11</a></li>
+                  <li><a href="pdf/hare-spring-2012-2013.pdf">Spring 2012-13</a></li>
+                  <li><a href="pdf/hare-spring-2013-2014.pdf">Spring 2013-14</a></li>
+                  <li><a href="pdf/hare-winter-2016-2017.pdf">Winter 2016-17</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-scroll">
+    {{ content }}
+  </main>
+
+
+  <footer class="page-footer">
+    <div class="container">
+        <div class="row">
+
+          <div class="col l3 m12 s12" style="overflow: hidden;">
+            <h4 class="white-text valign">Contact</h4>
+            <ul>
+              <li><a href="mailto:umbowewd@rose-hulman.edu" class="green-text text-accent-1">President</a></li>
+              <li><a href="mailto:tarriltp@rose-hulman.edu" class="green-text text-accent-1">Vice President</a></li>
+              <li><a href="mailto:moorejt2@rose-hulman.edu" class="green-text text-accent-1">Rush Director</a></li>
+              <li><a href="mailto:yorkww@rose-hulman.edu" class="green-text text-accent-1">Webmaster</a></li>
+            </ul>
+          </div>
+          <div class="col l5 m12 s12">
+            <h4 class="white-text valign">Location</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.338023620965!2d-87.41042449999996!3d39.461691699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d65320ce95333%3A0xa93085f04e4dafce!2s429+S+6th+St%2C+Terre+Haute%2C+IN+47807!5e0!3m2!1sen!2sus!4v1425759548538" width="400" height="300" frameborder="0" style="border:0"></iframe>
+          </div>
+          <div class="col l3 m12 s12">
+            <h4 class="white-text valign">Links</h4>
+            <ul>
+              <li><a href="http://www.deltasig.org/" class="green-text text-accent-1">Headquarters</a></li>
+              <li><a href="http://www.rose-hulman.edu/" class="green-text text-accent-1">Rose-Hulman Institute of Technology</a></li>
+              <li><a href="http://www.rose-hulman.edu/student-life/greek-life/intrafraternity-council.aspx" class="green-text text-accent-1">Interfraternity Council</a></li>
+              <li><a href="http://www.dspzlalumni.org/" class="green-text text-accent-1">Alumni</a></li>
+              <li><a href="http://www.dspzlalumni.org/forums/" class="green-text text-accent-1">Forums</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        &copy; 2015 &#916;&#931;&#934; &#918;&#923; &bull; 429 S. 6<sup>th</sup> St. &bull; Terre Haute, IN 47807 &bull; (812) 234-0969
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/base.js"></script>
+  {% for path in page.extra_js %}
+    <script type="text/javascript" src="{{ path }}"></script>
+  {% endfor %}
+</body>
+</html>
