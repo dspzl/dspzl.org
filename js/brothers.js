@@ -1,4 +1,4 @@
-var seniors = [ /*{ name:"Patrick Barr", hometown:"Appleton, WI", major:"International Computer Science", username:"barrpt"},*/
+var seniors = [ { name:"Patrick Barr", hometown:"Appleton, WI", major:"International Computer Science", username:"barrpt"},
   { name:"Lingzhe Cai", hometown:"Philadelphia, PA", major:"Electrical Engineering", username:"cail"},
   { name:"Tevin Crody", hometown:"Angola, IN", major:"Software Engineering", username:"crodyt"},
   { name:"Matthew Leland Dale", hometown:"Chanhassen, MN", major:"Mechanical Engineering", username:"daleml"},
@@ -20,7 +20,6 @@ var seniors = [ /*{ name:"Patrick Barr", hometown:"Appleton, WI", major:"Interna
   { name:"Wesley Donald Umbower", hometown:"Valparaiso, IN", major:"Chemical Engineering", username:"umbowewd"},
   { name:"James Ferguson Usher", hometown:"Syracuse, NY", major:"Computer Engineering", username:"usherj"},
   { name:"William Walton York", hometown:"Chattanooga, TN", major:"Software Engineering", username:"yorkww"}
-
 ];
 
 var juniors = [ { name:"Jarrett Scott Alexander", hometown:"Brownsburg, IN", major:"Computer Science", username:"alexanjs"},
@@ -44,31 +43,48 @@ var juniors = [ { name:"Jarrett Scott Alexander", hometown:"Brownsburg, IN", maj
   { name:"John Michael Quinslisk Van Treeck", hometown:"Northbrook, IL", major:"Electrical Engineering", username:"vantrejm"},
   { name:"Kevin Thomas Wuest", hometown:"Fort Wayne, IN", major:"Mechanical Engineering", username:"wuestkt"},
   { name:"Zachary Eberhardt Zdanavicius", hometown:"Crestwood, IL", major:"Chemical Engineering", username:"zdanavz"}
-
 ];
 
 var sophomores = [ { name:"Evan Neil Ammidown", hometown:"Highlands Ranch, CO", major:"Chemical Engineering", username:"ammidoen"},
-    { name:"Isaac Nathaniel Austin", hometown:"Birdseye, IN", major:"Computer Science", username:"austinin"},
-    { name:"Jacob Donald Beckmann", hometown:"St. Charles, MO", major:"Software Engineering", username:"beckmaj1"},
-    { name:"Nathan Martin Ciriacks", hometown:"Maribel, WI", major:"Chemical Engineering", username:"ciriacnm"},{ name:"Robert Dilbert DeBerry", hometown:"Upperville, VA", major:"Mechanincal Engineering", username:"deberrr"},
-    { name:"Alexander Joseph Deptula", hometown:"Omaha, NE", major:"Chemical Engineering", username:"deptulaj"},
-    { name:"Blake Robert Emmert", hometown:"Ferdinand, IN", major:"Computer Engineering", username:"emmertbr"},
-    { name:"Luke Giusep Evard", hometown:"Sunnyvale, CA", major:"Computer Science", username:"evardl"},
-    { name:"James Micah Fletcher", hometown:"Louisville, KY", major:"Engineering Physics", username:"fletchjm"},
-    { name:"Thomas Michael Gallery", hometown:"Oswego, IL", major:"Chemical Engineering", username:"gallertm"},
-    { name:"Runzhe Gao", hometown:"Changzhou, China", major:"Electrical Engineering", username:"gaor"},
-    { name:"Zachery Alan Harrison", hometown:"Indianapolis, IN", major:"Mechanical Engineering", username:"harrisza"},
-    { name:"Nolan Christopher Hughes", hometown:"Shelbyville, KY", major:"Chemical Engineering", username:"hughesnc"},
-    { name:"William Joseph McCoy", hometown:"Barrington Hills, IL", major:"Biomedical Engineering", username:"mcevoywj"},
-    { name:"Sai Vikram Molakala", hometown:"Sunnyville, CA", major:"Computer Engineering", username:"molakasv"},
-    { name:"Bradley Michael Pender", hometown:"Highland Park, IL", major:"Computer Science", username:"penderbm"},
-    { name:"Joshua Dean Reitz", hometown:"Gilman, IL", major:"Biomedical Engineering", username:"reitzjd"},
-    { name:"Matthew Thomas Stevenot", hometown:"Hudson, OH", major:"Mechanical Engineering", username:"stevenmt"},
-    { name:"Joshua Ryan Wood", hometown:"Newburgh, IN", major:"Mechanical Engineering", username:"woodjr"},
-    { name:"Guang Yang", hometown:"Zhengzhou City, China", major:"Mechanical Engineering", username:"yangg"}
+  { name:"Isaac Nathaniel Austin", hometown:"Birdseye, IN", major:"Computer Science", username:"austinin"},
+  { name:"Jacob Donald Beckmann", hometown:"St. Charles, MO", major:"Software Engineering", username:"beckmaj1"},
+  { name:"Nathan Martin Ciriacks", hometown:"Maribel, WI", major:"Chemical Engineering", username:"ciriacnm"},
+  { name:"Robert Dilbert DeBerry", hometown:"Upperville, VA", major:"Mechanincal Engineering", username:"deberrr"},
+  { name:"Alexander Joseph Deptula", hometown:"Omaha, NE", major:"Chemical Engineering", username:"deptulaj"},
+  { name:"Blake Robert Emmert", hometown:"Ferdinand, IN", major:"Computer Engineering", username:"emmertbr"},
+  { name:"Luke Giusep Evard", hometown:"Sunnyvale, CA", major:"Computer Science", username:"evardl"},
+  { name:"James Micah Fletcher", hometown:"Louisville, KY", major:"Engineering Physics", username:"fletchjm"},
+  { name:"Thomas Michael Gallery", hometown:"Oswego, IL", major:"Chemical Engineering", username:"gallertm"},
+  { name:"Runzhe Gao", hometown:"Changzhou, China", major:"Electrical Engineering", username:"gaor"},
+  { name:"Zachery Alan Harrison", hometown:"Indianapolis, IN", major:"Mechanical Engineering", username:"harrisza"},
+  { name:"Nolan Christopher Hughes", hometown:"Shelbyville, KY", major:"Chemical Engineering", username:"hughesnc"},
+  { name:"William Joseph McCoy", hometown:"Barrington Hills, IL", major:"Biomedical Engineering", username:"mcevoywj"},
+  { name:"Sai Vikram Molakala", hometown:"Sunnyville, CA", major:"Computer Engineering", username:"molakasv"},
+  { name:"Bradley Michael Pender", hometown:"Highland Park, IL", major:"Computer Science", username:"penderbm"},
+  { name:"Joshua Dean Reitz", hometown:"Gilman, IL", major:"Biomedical Engineering", username:"reitzjd"},
+  { name:"Matthew Thomas Stevenot", hometown:"Hudson, OH", major:"Mechanical Engineering", username:"stevenmt"},
+  { name:"Joshua Ryan Wood", hometown:"Newburgh, IN", major:"Mechanical Engineering", username:"woodjr"},
+  { name:"Guang Yang", hometown:"Zhengzhou City, China", major:"Mechanical Engineering", username:"yangg"}
 ];
 
-var freshmen =[];
+var freshmen =[ { name:"Nicholas Paul Barr", hometown:"Fishers, IN", major:"Mechanical Engineering", username:"barrnp" },
+  { name:"Philip James Bissmeyer", hometown:"Cincinatti, OH", major:"Mechanical Engineering", username:"bissmepj" },
+  { name:"Jackson Lee Cook", hometown:"Noblesville, IN", major:"Electrical Engineering", username:"cookjl" },
+  { name:"Jason Franklin Danford", hometown:"San Pierre, IN", major:"Mechanical Engineering", username:"danforjf" },
+  { name:"Zachariah Benjamin Eme", hometown:"Livermore, CA", major:"Mechanical Engineering", username:"emezb" },
+  { name:"Samuel Colier Flickinger", hometown:"Decatur, IL", major:"Computer Science/Computer Engineering", username:"flickisc" },
+  { name:"Cole Alexander Hanson", hometown:"Kokomo, IN", major:"Mechanical Engineering", username:"hansonca" },
+  { name:"Nathaniel Chapman Huey", hometown:"Cocktown, PA", major:"Mechanical Engineering", username:"hueync" },
+  { name:"Hans William Knoepfel", hometown:"Paris, IL", major:"Civil Engineering", username:"knoepfhw" },
+  { name:"Mitchell Owen Lugsch", hometown:"Golden, CO", major:"Mechanical Engineering", username:"lugschmo" },
+  { name:"Carson James Meyer", hometown:"St. Louis, MO", major:"Computer Engineering", username:"meyerc1" },
+  { name:"Bryce Allen Nesius", hometown:"Rensselaer, IN", major:"Computer Engineering", username:"nesiusba" },
+  { name:"Jake Brandt Powell", hometown:"Robinson, IL", major:"Mechanical Engineering", username:"powelljb" },
+  { name:"Gavin Dane Rue", hometown:"Fishers, IN", major:"Chemical Engineering", username:"ruegd" },
+  { name:"Geoffrey Barton Tomlinson", hometown:"Houston, TX", major:"Computer Engineering", username:"tomlingb" },
+  { name:"Joshua Daniel Warning", hometown:"Noblesville, IN", major:"Software Engineering", username:"warninjd" },
+  { name:"Zehming Zhang", hometown:"Xi'an China", major:"Mechanical Engineering", username:"zhangz12" },
+];
 
 function getBrotherCard(brother){
   var email = brother.username+'@rose-hulman.edu';
