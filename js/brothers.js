@@ -23,7 +23,7 @@ var seniors = [ { name:"Jarrett Scott Alexander", hometown:"Brownsburg, IN", maj
   { name:"John Michael Quinslisk Van Treeck", hometown:"Northbrook, IL", major:"Electrical Engineering", username:"vantrejm"},
   { name:"James Ferguson Usher", hometown:"Syracuse, NY", major:"Computer Engineering", username:"usherj"},
   { name:"Kevin Thomas Wuest", hometown:"Fort Wayne, IN", major:"Mechanical Engineering", username:"wuestkt"},
-  { name:"William Walton York", hometown:"Chattanooga, TN", major:"Software Engineering", username:"yorkww"}
+  { name:"William Walton York", hometown:"Chattanooga, TN", major:"Software Engineering", username:"yorkww"},
   { name:"Zachary Eberhardt Zdanavicius", hometown:"Crestwood, IL", major:"Chemical Engineering", username:"zdanavz"}
 ];
 
