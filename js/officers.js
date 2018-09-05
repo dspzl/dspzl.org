@@ -9,7 +9,7 @@ var elected = [
   { position:'Sergeant-at-Arms', name:'Joseph Anthony Holtz', username:"holtzja" },
   { position:'Rush Director', name:'Stephen Adam Jones', username:"jonessa1" },
   { position:'Rush Director', name:'Nolan Christopher Hughes', username:"hughesnc"},
-  { position:'Social Director', name:'Sai Vikram Molakala', username:"molakasv" },
+  { position:'Social Director', name:'Jason Franklin Danford', username:"danforjf" },
   { position:'Bid Selection Committee Chairman', name:'Robert Dilbert DeBerry', username:"deberrr" },
   { position:'New Member Educator', name:'James Ferguson Usher', username:"usherj" }
 ];
