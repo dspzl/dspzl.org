@@ -1,6 +1,4 @@
-var newmembers=[ { name:"Michael Richard Holtz", hometown:"Elkhart, IN", major:"Optical Engineering", username:"holtzmr"},
-  { name:"Alain Olivier Kouassi", hometown:"West Orange, NJ", major:"Computer Science", username:"kouassao"},
-  { name:"Thomas Reid Meehan", hometown:"", major:"Mechanical Engineering", username:"meehantr"}
+var newmembers=[ 
 ];
 
 function getNewMemberCard(newmember){
