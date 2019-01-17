@@ -29,7 +29,7 @@ var seniors = [ { name:"Jarrett Scott Alexander", hometown:"Brownsburg, IN", maj
 
 var juniors = [ { name:"Evan Neil Ammidown", hometown:"Highlands Ranch, CO", major:"Chemical Engineering", username:"ammidoen"},
   { name:"Isaac Nathaniel Austin", hometown:"Birdseye, IN", major:"Computer Science", username:"austinin"},
-  { name:"Jacob Donald Beckmann", hometown:"St. Charles, MO", major:"Software Engineering", username:"beckmaj1"},
+  { name:"Jacob Donald Beckmann", hometown:"St. Charles, MO", major:"Physics/Electrical Engineering", username:"beckmaj1"},
   { name:"Nathan Martin Ciriacks", hometown:"Maribel, WI", major:"Chemical Engineering", username:"ciriacnm"},
   { name:"Robert Dilbert DeBerry", hometown:"Upperville, VA", major:"Mechanincal Engineering", username:"deberrr"},
   { name:"Alexander Joseph Deptula", hometown:"Omaha, NE", major:"Chemical Engineering", username:"deptulaj"},
