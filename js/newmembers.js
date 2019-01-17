@@ -1,4 +1,20 @@
-var newmembers=[ 
+var newmembers=[ { name:"Jared William Joseph Brown", hometown:"Skokie, IL", major:"Mechanical Engineering", username:"brownjw"},
+  { name:"Praneet Chakraborty", hometown:"Aurora, IL", major:"Computer Science", username:"chakrap"},
+  { name:"Calen Michael Cook", hometown:"Brazil, IN", major:"Chemical Engineering", username:"cookc4"},
+  { name:"Lucas Alberto D'Alesio", hometown:"Park Ridge, IL", major:"Computer Engineering", username:"dalesil"},
+  { name:"Songwei Fan", hometown:"Shenzhen, China", major:"Mechanical Engineering", username:"fans"},
+  { name:"Thriambak Rishi Giripra", hometown:"Bloomington, IL", major:"Biomedical Engineering", username:"giriprtr"},
+  { name:"Bryce Benjamin Hatfield", hometown:"Saint John, IN", major:"Chemical Engineering", username:"hatfiebb"},
+  { name:"Nasser Nadim Hegar", hometown:"Noblesville, IN", major:"Computer Engineering", username:"hegarnn"},
+  { name:"Brian Michael Huyge", hometown:"Marshall, MI", major:"Chemical Engineering", username:"huygebm"},
+  { name:"Michael James Johnson", hometown:"Gothenburg, Sweden", major:"Mechanical Engineering", username:"johnsom4"},
+  { name:"Tazwell Alexander Long", hometown:"Columbus, IN", major:"Mechanical Engineering", username:"longta"},
+  { name:"Colton Tyler McKay", hometown:"Rising Sun, IN", major:"Mechanical Engineering", username:"mckayct"},
+  { name:"Aidan Cory Moss", hometown:"Broomfield, CO", major:"Computer Engineering", username:"mossac"},
+  { name:"Haiden Michael Smith", hometown:"Manhattan, IL", major:"Electrical Engineering", username:"smithhm"},
+  { name:"Bryce Cameron Snaguski", hometown:"Rolling Hills Estates, CA", major:"Mechanical Engineering", username:"snagusbc"},
+  { name:"Jacob Dietrich Tebbe", hometown:"Lebanon, OH", major:"Electrical Engineering", username:"tebbejd"},
+  { name:"Tyler Joe Thenell", hometown:"West Milford, NJ", major:"Computer Engineering", username:"theneltj"}
 ];
 
 function getNewMemberCard(newmember){
