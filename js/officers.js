@@ -1,34 +1,38 @@
 var elected = [
-  { position:'President', name:'Turner Paul Tarrillion', username:"tarriltp" },
-  { position:'Vice-President', name:'Joshua Dean Reitz', username:"reitzjd" },
-  { position:'Engineered Leadership Director', name:'Daniel Thomas Connolly', username:"connoldt" },
-  { position:'Treasurer', name:'Thomas Michael Gallery', username:"gallertm" },
-  { position:'Steward', name:'James Micah Fletcher', username:"fletchjm" },
-  { position:'House Manager', name:'Zachary Eberhardt Zdanavicius', username:"zdanavz" },
-  { position:'Secretary', name:'Luke Giusep Evard', username:"evardl" },
-  { position:'Sergeant-at-Arms', name:'Joseph Anthony Holtz', username:"holtzja" },
-  { position:'Rush Director', name:'Stephen Adam Jones', username:"jonessa1" },
-  { position:'Rush Director', name:'Nolan Christopher Hughes', username:"hughesnc"},
-  { position:'Social Director', name:'Jason Franklin Danford', username:"danforjf" },
-  { position:'Bid Selection Committee Chairman', name:'Robert Dilbert DeBerry', username:"deberrr" },
-  { position:'New Member Educator', name:'James Ferguson Usher', username:"usherj" }
+    { position: 'President', name: 'Joshua Dean Reitz', username: "reitzjd" },
+    { position: 'Vice-President', name: "William Joseph McCoy", username: "mcevoywj" },
+    { position: 'Engineered Leadership Director', name: "Michael Richard Holtz", username: "holtzmr" },
+    { position: 'Treasurer', name: "Cole Alexander Hanson", username: "hansonca" },
+    { position: 'Steward', name: "Joshua Ryan Wood", username:"woodjr" },
+    { position: 'House Manager', name: "Hans William Knoepfel", username:"knoepfhw" },
+    { position: 'Secretary', name: "Mitchell Owen Lugsch", username:"lugschmo" },
+    { position: 'Sergeant-at-Arms', name: "Carson James Meyer", username:"meyerc1" },
+    { position: 'Rush Director', name: "Tyler Joe Thenell", username:"theneltj" },
+    { position: 'Rush Director', name: "Haiden Michael Smith", username:"smithhm"},
+    { position: 'Social Director', name: "Philip James Bissmeyer", username:"bissmepj" },
+    { position:'Bid Selection Committee Chairman', name:'Robert Dilbert DeBerry', username:"deberrr" },
+    { position: 'New Member Educator', name: "Jacob Donald Beckmann", username:"beckmaj1" }
 ];
 
 var appointed = [
-  { position:'Activities Director', name:'Carson James Meyer', username:"meyerc1" },
-  { position:'Athletics Director', name:'Alexander Joseph Deptula', username:"deptulaj" },
-  { position:'Interfraternity Council Representative', name:'Philip James Bissmeyer', username:"bissmepj" },
-  { position:'Interfraternity Council Representative', name:'Nicholas Paul Barr', username:"barrnp" },
-  { position:'Public Relations Director', name:'Nathaniel Chapman Huey', username:"hueync" },
-  { position:'Philanthropy Director', name:'Cole Alexander Hanson', username:"hansonca"},
-  { position:'Alumni Director', name:'John Michael Quinslisk Van Treeck', username:"vantrejm" },
-  { position:'Chaplain', name:'Joseph Anthony Holtz', username:"holtzja" },
-  { position:'Editor', name:'Jake Brandt Powell', username:"powelljb" },
-  { position:'Historian', name:'Philip James Bissmeyer', username:"bissmepj" },
-  { position:'Technology Director', name:'William Walton York', username:"yorkww" },
-  { position:'Webmaster', name:'Bryce Allen Nesius', username:"nesiusba" },
-  { position:'Student Government Association Representative', name:'William Joseph McEvoy', username:"mcevoywj" },
-  { position:'Song Leader', name:'Mitchell Owen Lugsch', username:"lugschmo" }
+    { position:'Activities Director', name:'Carson James Meyer', username:"meyerc1" },
+    { position: 'Athletics Director', name: "Songwei Fan", username:"fans" },
+    { position: 'Interfraternity Council Representative', name: 'Carson James Meyer', username: "meyerc1" },
+    { position: 'Interfraternity Council Representative', name: "Colton Tyler McKay", username:"mckayct" },
+    { position: 'Public Relations Director', name: "Brian Michael Huyge", username:"huygebm" },
+    { position: 'Philanthropy Director', name: "Nicholas Paul Barr", username:"barrnp"},
+    { position: 'Alumni Director', name: "Jacob Dietrich Tebbe", username:"tebbejd" },
+    { position: 'Chaplain', name: "James Micah Fletcher", username:"fletchjm" },
+    { position: 'Editor', name: "Bryce Benjamin Hatfield", username: "hatfiebb" },
+    //{ position: 'Person #2', name: "Jacob Dietrich Tebbe", username: "tebbejd" },
+    { position:'Historian', name:'Philip James Bissmeyer', username:"bissmepj" },
+    { position: 'Technology Director', name: "Joshua Daniel Warning", username:"warninjd" },
+    { position: 'Webmaster', name: "Samuel Colter Flickinger", username:"flickisc" },
+    { position: 'Student Government Association Representative', name: "Abhishek Patre Anil Kumar", username:"anilkuap" },
+    { position: 'Song Leader', name: "Jared William Joseph Brown", username: "brownjw" },
+    //{ position: 'The Last Egg', name: "Brandon Edward Bochat", username: "bochatbe" },
+    //{ position: 'Director of Operations and Consulting', name: "Nolan Christopher Hughes", username: "hughesnc" }
+    //{ position: 'Director of Operations and Consulting', name: } tom  gallery here
 ];
 
 var advisors = [
@@ -111,3 +115,4 @@ for(var i=0; i<advisors.length; i+=2){
   html += '</div>';
   $("#advisors-container").append(html);
 }
+
