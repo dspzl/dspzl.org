@@ -34,15 +34,16 @@ var seniors = [{ name: "Evan Neil Ammidown", hometown: "Highlands Ranch, CO", ma
 { name: "Jacob Donald Beckmann", hometown: "St. Charles, MO", major: "Physics/Electrical Engineering", username: "beckmaj1" },
 { name: "Nathan Martin Ciriacks", hometown: "Maribel, WI", major: "Chemical Engineering", username: "ciriacnm" },
 { name: "Robert Dilbert DeBerry", hometown: "Upperville, VA", major: "Mechanincal Engineering", username: "deberrr" },
-{ name: "Alexander Joseph Deptula", hometown: "Omaha, NE", major: "Chemical Engineering", username: "deptulaj" },
+//{ name: "Alexander Joseph Deptula", hometown: "Omaha, NE", major: "Chemical Engineering", username: "deptulaj" },
 { name: "Blake Robert Emmert", hometown: "Ferdinand, IN", major: "Computer Engineering", username: "emmertbr" },
 { name: "Luke Giusep Evard", hometown: "Sunnyvale, CA", major: "Computer Science", username: "evardl" },
 { name: "James Micah Fletcher", hometown: "Louisville, KY", major: "Engineering Physics", username: "fletchjm" },
 { name: "Thomas Michael Gallery", hometown: "Oswego, IL", major: "Chemical Engineering", username: "gallertm" },
 { name: "Runzhe Gao", hometown: "Changzhou, China", major: "Electrical Engineering", username: "gaor" },
 { name: "Zachery Alan Harrison", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "harrisza" },
-{ name: "Nolan Christopher Hughes", hometown: "Shelbyville, KY", major: "Chemical Engineering", username: "hughesnc" },
-{ name: "William Joseph McCoy", hometown: "Barrington Hills, IL", major: "Biomedical Engineering", username: "mcevoywj" },
+//{ name: "Nolan Christopher Hughes", hometown: "Shelbyville, KY", major: "Chemical Engineering", username: "hughesnc" },
+{ name: "William Joseph McEvoy", hometown: "Barrington Hills, IL", major: "Biomedical Engineering", username: "mcevoywj" },
+{ name:"Brandon Edward Bochat", hometown:"Crystal Lake, IL", major:"Biomedical Engineering", username:"bochatbe"},
 //{ name: "Sai Vikram Molakala", hometown: "Sunnyville, CA", major: "Computer Engineering", username: "molakasv" },
 { name: "Bradley Michael Pender", hometown: "Highland Park, IL", major: "Computer Science", username: "penderbm" },
 { name: "Joshua Dean Reitz", hometown: "Gilman, IL", major: "Biomedical Engineering", username: "reitzjd" },
@@ -60,7 +61,7 @@ var juniors = [{ name: "Nicholas Paul Barr", hometown: "Fishers, IN", major: "Me
 { name: "Samuel Colter Flickinger", hometown: "Decatur, IL", major: "Computer Science/Computer Engineering", username: "flickisc" },
 { name: "Cole Alexander Hanson", hometown: "Kokomo, IN", major: "Mechanical Engineering", username: "hansonca" },
 { name: "Michael Richard Holtz", hometown: "Elkhart, IN", major: "Optical Engineering", username: "holtzmr" },
-{ name: "Nathaniel Chapman Huey", hometown: "Cocktown, PA", major: "Mechanical Engineering", username: "hueync" },
+//{ name: "Nathaniel Chapman Huey", hometown: "Cocktown, PA", major: "Mechanical Engineering", username: "hueync" },
 { name: "Hans William Knoepfel", hometown: "Paris, IL", major: "Civil Engineering", username: "knoepfhw" },
 { name: "Alain Olivier Kouassi", hometown: "West Orange, NJ", major: "Computer Science", username: "kouassao" },
 { name: "Mitchell Owen Lugsch", hometown: "Golden, CO", major: "Mechanical Engineering", username: "lugschmo" },
@@ -90,7 +91,8 @@ var sophomores = [
     { name: "Haiden Michael Smith", hometown: "Manhattan, IL", major: "Electrical Engineering", username: "smithhm" },
     { name: "Bryce Cameron Snaguski", hometown: "Rolling Hills Estates, CA", major: "Mechanical Engineering", username: "snagusbc" },
     { name: "Jacob Dietrich Tebbe", hometown: "Lebanon, OH", major: "Electrical Engineering", username: "tebbejd" },
-    { name: "Tyler Joe Thenell", hometown: "West Milford, NJ", major: "Computer Engineering", username: "theneltj" }
+    { name: "Tyler Joe Thenell", hometown: "West Milford, NJ", major: "Computer Engineering", username: "theneltj" },
+    { name: "Shengjun Guan", hometown: "Wenzhou, China", major: "Computer Science", username: "guans"}
 ];
 
 
