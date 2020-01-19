@@ -4,7 +4,7 @@ var elected = [
     { position: 'Engineered Leadership Director', name: "Michael Richard Holtz", username: "holtzmr" },
     { position: 'Treasurer', name: "Cole Alexander Hanson", username: "hansonca" },
     { position: 'Steward', name: "Joshua Ryan Wood", username:"woodjr" },
-    { position: 'House Manager', name: "Hans William Knoepfel", username:"knoepfhw" },
+    { position: 'House Director', name: "Brian Michael Huyge", username:"huygebm" },
     { position: 'Secretary', name: "Mitchell Owen Lugsch", username:"lugschmo" },
     { position: 'Sergeant-at-Arms', name: "Carson James Meyer", username:"meyerc1" },
     { position: 'Rush Director', name: "Tyler Joe Thenell", username:"theneltj" },
