@@ -1,5 +1,5 @@
 var elected = [
-  { position:'President', name:'Turner Paul Tarrillion', username:"tarriltp" },
+  { position:'President', name:'Philip James Bissmeyer', username:"bissempj" },
   { position:'Vice-President', name:'Joshua Dean Reitz', username:"reitzjd" },
   { position:'Engineered Leadership Director', name:'Daniel Thomas Connolly', username:"connoldt" },
   { position:'Treasurer', name:'Thomas Michael Gallery', username:"gallertm" },
