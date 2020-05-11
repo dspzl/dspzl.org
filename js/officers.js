@@ -29,7 +29,7 @@ var appointed = [
     { position: 'Webmaster', name: "Carson James Meyer", username:"meyerc1" },
     //need middle name
     { position: 'Student Government Association Representative', name: "Mason Doland Reid", username:"reidmd" },
-    { position: 'Song Leader', name: "James Guan", username: "yangg" },
+    { position: 'Song Leader', name: "James Guan", username: "guans" },
 ];
 
 var advisors = [

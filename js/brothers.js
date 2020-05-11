@@ -76,6 +76,7 @@ var juniors = [{ name: "Nicholas Paul Barr", hometown: "Fishers, IN", major: "Me
 ];
 
 var sophomores = [
+    { name: "Evan Thomas Baker", hometown: "Springville, IN", major: "Mechanical Engineering", username: "bakeret"},
     { name: "Jared William Joseph Brown", hometown: "Skokie, IL", major: "Mechanical Engineering", username: "brownjw" },
     { name: "Calen Michael Cook", hometown: "Brazil, IN", major: "Chemical Engineering", username: "cookc4" },
     { name: "Lucas Alberto D'Alesio", hometown: "Park Ridge, IL", major: "Computer Engineering", username: "dalesil" },
@@ -97,7 +98,17 @@ var sophomores = [
 
 
 
-//var freshmen = null;
+var freshmen = [
+    {name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Engineering Design", username: "allenvj"},
+    {name: "John Yoon Su Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy"},
+    {name: "Brendon Michael Crabtree", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "crabtrbm"},
+    {name: "Ethan Benjamin Drong", hometown: "", major: "Mechanical Engineering", username: "drongeb"},
+    {name: "Samuel Edward Johnson", hometown: "Oldenburg, IN", major: "Mechanical Engineering", username:"johnsose"},
+    {name: "David Jason Purdy", hometown: "Franklin, IN", major: "Computer Engineering", username: "purdydj"},
+    {name: "Carl Frederick Quist", hometown: "", major: "Mechanical Engineering", username: "quistcf"},
+    {name: "Mason Darrel Reid", hometown: "", major: "Biomedical Engineering", username: "reidmd"},
+    {name: "Ethan Donald Whetter", hometown: "Santa Barbara, CA", major: "Biomedical Engineering", username: "whetteed"}
+];
 
 function getBrotherCard(brother){
   var email = brother.username+'@rose-hulman.edu';
