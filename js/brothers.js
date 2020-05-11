@@ -175,7 +175,7 @@ for(var i=0; i<sophomores.length; i+=2){
 
 //add freshmen
 
-/*
+
 for(var i=0; i<freshmen.length; i+=2){
   var html = '<div class="row content no-margin">';
   html += getBrotherCard(freshmen[i]);
@@ -186,4 +186,4 @@ for(var i=0; i<freshmen.length; i+=2){
   html += '</div>';
   $("#freshmen-container").append(html);
 }
-*/
+
