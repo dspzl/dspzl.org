@@ -100,13 +100,19 @@ var sophomores = [
 
 var freshmen = [
     {name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Engineering Design", username: "allenvj"},
-    {name: "John Yoon Su Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy"},
+    {name: "William Bartlett Bowman", hometown: "Germantown, OH", major: "Mathematics", username: "bowmanwb"},
+    {name: "John 'Yoon Su' Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy"},
     {name: "Brendon Michael Crabtree", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "crabtrbm"},
-    {name: "Ethan Benjamin Drong", hometown: "", major: "Mechanical Engineering", username: "drongeb"},
+    {name: "Ethan Benjamin Drong", hometown: "Lockport, IL", major: "Mechanical Engineering", username: "drongeb"},
+    {name: "Jameson Minovich Jochheim", hometown: "Round Lake, IL", major: "Mechanical Engineering", username: "jochhejm"},
     {name: "Samuel Edward Johnson", hometown: "Oldenburg, IN", major: "Mechanical Engineering", username:"johnsose"},
+    {name: "Joshua Steven Mitterling", hometown: "Noblesville, IN", major: "Computer Engineering", username: "mitterj"},
+    {name: "Aidan Ronaldo Morris", hometown: "Franklin, IN", major: "Chemical Engineering", username: "morrisad"},
     {name: "David Jason Purdy", hometown: "Franklin, IN", major: "Computer Engineering", username: "purdydj"},
-    {name: "Carl Frederick Quist", hometown: "", major: "Mechanical Engineering", username: "quistcf"},
-    {name: "Mason Darrel Reid", hometown: "", major: "Biomedical Engineering", username: "reidmd"},
+    {name: "Carl Frederick Quist", hometown: "Marshall, MI", major: "Mechanical Engineering", username: "quistcf"},
+    {name: "Jack Freidmont Raker", hometown: "Palatine, IL", major: "Chemical Engineering", username: "rakerjp"},
+    {name: "Mason Darrell Reid", hometown: "Glasgow, KY", major: "Biomedical Engineering", username: "reidmd"},
+    {name: "Luke Abraham Wendel", hometown: "Noblesville, IN", major: "Computer Engineering", username:"wendella"},
     {name: "Ethan Donald Whetter", hometown: "Santa Barbara, CA", major: "Biomedical Engineering", username: "whetteed"}
 ];
 

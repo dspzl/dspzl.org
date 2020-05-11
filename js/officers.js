@@ -28,7 +28,7 @@ var appointed = [
     { position: 'Technology Director', name: "Joshua Daniel Warning", username:"warninjd" },
     { position: 'Webmaster', name: "Carson James Meyer", username:"meyerc1" },
     //need middle name
-    { position: 'Student Government Association Representative', name: "Mason Doland Reid", username:"reidmd" },
+    { position: 'Student Government Association Representative', name: "Mason Darrell Reid", username:"reidmd" },
     { position: 'Song Leader', name: "James Guan", username: "guans" },
 ];
 
