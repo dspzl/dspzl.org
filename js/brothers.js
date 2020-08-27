@@ -1,34 +1,3 @@
-/*
- * [ { name:"Jarrett Scott Alexander", hometown:"Brownsburg, IN", major:"Computer Science", username:"alexanjs"},
-  { name:"Abhishek Patre Anil Kumar", hometown:"Bangalore, India", major:"Mechanical Engineering", username:"anilkuap"},
-  { name:"Patrick Barr", hometown:"Appleton, WI", major:"International Computer Science", username:"barrpt"},
-  { name:"Brandon Edward Bochat", hometown:"Crystal Lake, IL", major:"Biomedical Engineering", username:"bochatbe"},
-  { name:"Corey Anthony Bochat", hometown:"Crystal Lake, IL", major:"Mechanical Engineering", username:"bochatca"},
-  { name:"Graham Joseph Cassel", hometown:"Mechanicsburg, PA", major:"Optical Engineering", username:"casselgj"},
-  { name:"Cameron John Compton", hometown:"Baltimore, MD", major:"Computer Engineering", username:"comptocj"},
-  { name:"Daniel Thomas Connolly", hometown:"Fort Wayne, IN", major:"Mechanical Engineering", username:"connoldt"},
-  { name:"Shaun Michael Davis", hometown:"Gurnee, IL", major:"Computer Engineering", username:"davissm"},
-  { name:"Bryan Douglas Gish", hometown:"Kansas City, KS", major:"Mechanical Engineering", username:"gishbd"},
-  { name:"Caleb Nathaniel Hille", hometown:"Evansville, IN", major:"Electrical Engineering", username:"hillecn"},
-  { name:"Joseph Anthony Holtz", hometown:"Elkhart, IN", major:"Mechanical Engineering", username:"holtzja"},
-  { name:"Jonathan Gregory Taylor Jones", hometown:"Plainfield, IN", major:"Software Engineering", username:"jonesjg1"},
-  { name:"Stephen Adam Jones", hometown:"Los Angeles, CA", major:"Mechanical Engineering", username:"jonessa1"},
-  { name:"Jordan Atchinson Knupp", hometown:"Harrisonburg, VA", major:"Computer Science", username:"knuppja"},
-  { name:"Nitin Kommireddy", hometown:"Kampala, Uganda", major:"Mechanical Engineering", username:"kommirn"},
-  { name:"Wyatt Wesley Patton Lewis", hometown:"Catlettsburg, KY", major:"Biomedical Engineering", username:"lewisww"},
-  { name:"Bertrand Joseph Lund", hometown:"Schaumburg, IL", major:"Computer Engineering", username:"lundaj"},
-  { name:"Mila Tan", hometown:"Grant Pass, OR", major:"Electrical Engineering", username:"tanm1"},
-  { name:"Ran Tao", hometown:"Beijing, China", major:"Computer Science", username:"taor"},
-  { name:"Turner Paul Tarrillion", hometown:"San Antonio, TX", major:"Biomedical Engineering", username:"tarriltp"},
-  { name:"Shinmon B. Ueno", hometown:"Westwood, MA", major:"Software Engineering", username:"uenos"},
-  { name:"John Michael Quinslisk Van Treeck", hometown:"Northbrook, IL", major:"Electrical Engineering", username:"vantrejm"},
-  { name:"James Ferguson Usher", hometown:"Syracuse, NY", major:"Computer Engineering", username:"usherj"},
-  { name:"Kevin Thomas Wuest", hometown:"Fort Wayne, IN", major:"Mechanical Engineering", username:"wuestkt"},
-  { name:"William Walton York", hometown:"Chattanooga, TN", major:"Software Engineering", username:"yorkww"},
-  { name:"Zachary Eberhardt Zdanavicius", hometown:"Crestwood, IL", major:"Chemical Engineering", username:"zdanavz"}
-];
-*/
-
 var seniors = [{ name: "Evan Neil Ammidown", hometown: "Highlands Ranch, CO", major: "Chemical Engineering", username: "ammidoen" },
 { name: "Isaac Nathaniel Austin", hometown: "Birdseye, IN", major: "Computer Science", username: "austinin" },
 { name: "Jacob Donald Beckmann", hometown: "St. Charles, MO", major: "Physics/Electrical Engineering", username: "beckmaj1" },
@@ -118,7 +87,7 @@ var freshmen = [
 
 function getBrotherCard(brother){
   var email = brother.username+'@rose-hulman.edu';
-  var html = '<div class="col l6">';
+  var html = '<div id="' + brother.username + '" class="col l6">';
   html += '<div class="card-panel z-depth-1">';
   html += '<div class="row valign-wrapper no-margin">';
   html += '<div class="col s3">';
@@ -149,6 +118,7 @@ for(var i=0; i<seniors.length; i+=2){
   $("#seniors-container").append(html);
 }
 
+$("#chakrap").click(() => { window.location.href='https://www.pi-kappa-alpha.net/' })
 //add juniors
 for(var i=0; i<juniors.length; i+=2){
   var html = '<div class="row content no-margin">';
