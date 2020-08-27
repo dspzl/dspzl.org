@@ -117,8 +117,6 @@ for(var i=0; i<seniors.length; i+=2){
   html += '</div>';
   $("#seniors-container").append(html);
 }
-
-$("#chakrap").click(() => { window.location.href='https://www.pi-kappa-alpha.net/' })
 //add juniors
 for(var i=0; i<juniors.length; i+=2){
   var html = '<div class="row content no-margin">';
@@ -131,6 +129,8 @@ for(var i=0; i<juniors.length; i+=2){
   $("#juniors-container").append(html);
 }
 
+
+$("#chakrap").click(() => { window.location.href='https://www.pi-kappa-alpha.net/' })
 //add sophomores
 for(var i=0; i<sophomores.length; i+=2){
   var html = '<div class="row content no-margin">';
