@@ -87,11 +87,11 @@ var freshmen = [
 
 function getBrotherCard(brother){
   var email = brother.username+'@rose-hulman.edu';
-  var html = '<div id="' + brother.username + '" class="col l6">';
+  var html = '<div class="col l6">';
   html += '<div class="card-panel z-depth-1">';
   html += '<div class="row valign-wrapper no-margin">';
   html += '<div class="col s3">';
-  html += '<img src="img/portraits/'+brother.username+'.jpg" alt="" class="circle responsive-img valign">';
+  html += '<img id="' + brother.username + '" src="img/portraits/'+brother.username+'.jpg" alt="" class="circle responsive-img valign">';
   html += '</div>';
   html += '<div class="col s9">';
   html += '<h5 class="no-top-margin"><strong>'+brother.name+'</strong></h5>';
