@@ -197,3 +197,6 @@ html[xmlns] .clearfix {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #388e3c;
 }
+#chakrap {
+  cursor: pointer;
+}
