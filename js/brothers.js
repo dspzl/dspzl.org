@@ -131,6 +131,7 @@ for(var i=0; i<juniors.length; i+=2){
 
 
 $("#chakrap").click(() => { window.location.href='https://www.pi-kappa-alpha.net/' })
+$("#chakrap").css('cursor', 'pointer')
 //add sophomores
 for(var i=0; i<sophomores.length; i+=2){
   var html = '<div class="row content no-margin">';
