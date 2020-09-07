@@ -55,7 +55,7 @@ var juniors = [
     { name: "Bryce Benjamin Hatfield", hometown: "Saint John, IN", major: "Chemical Engineering", username: "hatfiebb" },
     { name: "Nasser Nadim Hegar", hometown: "Noblesville, IN", major: "Computer Engineering", username: "hegarnn" },
     { name: "Brian Michael Huyge", hometown: "Marshall, MI", major: "Chemical Engineering", username: "huygebm" },
-    //{ name: "Michael James Johnson", hometown: "Gothenburg, Sweden", major: "Mechanical Engineering", username: "johnsom4" },
+    { name: "Michael James Johnson", hometown: "Gothenburg, Sweden", major: "Mechanical Engineering", username: "johnsom4" },
     //{ name: "Tazwell Alexander Long", hometown: "Columbus, IN", major: "Mechanical Engineering", username: "longta" },
     { name: "Colton Tyler McKay", hometown: "Rising Sun, IN", major: "Mechanical Engineering", username: "mckayct" },
     { name: "Aidan Cory Moss", hometown: "Broomfield, CO", major: "Computer Engineering", username: "mossac" },
