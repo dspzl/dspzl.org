@@ -1,4 +1,4 @@
-var seniors = [{ name: "Evan Neil Ammidown", hometown: "Highlands Ranch, CO", major: "Chemical Engineering", username: "ammidoen" },
+/*[{ name: "Evan Neil Ammidown", hometown: "Highlands Ranch, CO", major: "Chemical Engineering", username: "ammidoen" },
 { name: "Isaac Nathaniel Austin", hometown: "Birdseye, IN", major: "Computer Science", username: "austinin" },
 { name: "Jacob Donald Beckmann", hometown: "St. Charles, MO", major: "Physics/Electrical Engineering", username: "beckmaj1" },
 { name: "Nathan Martin Ciriacks", hometown: "Maribel, WI", major: "Chemical Engineering", username: "ciriacnm" },
@@ -20,8 +20,9 @@ var seniors = [{ name: "Evan Neil Ammidown", hometown: "Highlands Ranch, CO", ma
 { name: "Joshua Ryan Wood", hometown: "Newburgh, IN", major: "Mechanical Engineering", username: "woodjr" },
 { name: "Guang Yang", hometown: "Zhengzhou City, China", major: "Mechanical Engineering", username: "yangg" }
 ];
+*/
 
-var juniors = [{ name: "Nicholas Paul Barr", hometown: "Fishers, IN", major: "Mechanical Engineering", username: "barrnp" },
+var seniors = [{ name: "Nicholas Paul Barr", hometown: "Fishers, IN", major: "Mechanical Engineering", username: "barrnp" },
 { name: "Philip James Bissmeyer", hometown: "Cincinatti, OH", major: "Mechanical Engineering", username: "bissmepj" },
 { name: "Praneet Chakraborty", hometown: "Aurora, IL", major: "Computer Science", username: "chakrap" },
 { name: "Jackson Lee Cook", hometown: "Noblesville, IN", major: "Electrical Engineering", username: "cookjl" },
@@ -44,7 +45,7 @@ var juniors = [{ name: "Nicholas Paul Barr", hometown: "Fishers, IN", major: "Me
 { name: "Zehming Zhang", hometown: "Xi'an China", major: "Mechanical Engineering", username: "zhangz12" },
 ];
 
-var sophomores = [
+var juniors = [
     { name: "Evan Thomas Baker", hometown: "Springville, IN", major: "Mechanical Engineering", username: "bakeret"},
     { name: "Jared William Joseph Brown", hometown: "Skokie, IL", major: "Mechanical Engineering", username: "brownjw" },
     { name: "Calen Michael Cook", hometown: "Brazil, IN", major: "Chemical Engineering", username: "cookc4" },
@@ -67,7 +68,7 @@ var sophomores = [
 
 
 
-var freshmen = [
+var sophomores = [
     {name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Engineering Design", username: "allenvj"},
     {name: "William Bartlett Bowman", hometown: "Germantown, OH", major: "Mathematics", username: "bowmanwb"},
     {name: "John 'Yoon Su' Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy"},
