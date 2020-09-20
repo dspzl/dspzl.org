@@ -69,7 +69,7 @@ var juniors = [
 
 
 var sophomores = [
-    {name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Engineering Design", username: "allenvj"},
+    {name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Mechanical Engineering", username: "allenvj"},
     {name: "William Bartlett Bowman", hometown: "Germantown, OH", major: "Mathematics", username: "bowmanwb"},
     {name: "John 'Yoon Su' Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy"},
     {name: "Brendon Michael Crabtree", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "crabtrbm"},
