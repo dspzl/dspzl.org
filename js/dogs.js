@@ -14,8 +14,8 @@ function getDogsCard(dog){
   html += '<div class="col s9">';
   html += '<h5 class="no-top-margin"><strong>'+dog.name+'</strong></h5>';
   html += '<h6 class="no-margin">'+dog.hometown+'</h6>';
-  html += '<h6>'"Talent: "+dog.talent+'</h6>';
-  html += '<h6>'"Owner: "+dog.owner+'</h6>';
+  html += '<h6>'+dog.talent+'</h6>';
+  html += '<h6>'+dog.owner+'</h6>';
   html += '</div>';
   html += '</div>';
   html += '</div>';
