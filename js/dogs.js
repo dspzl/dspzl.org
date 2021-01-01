@@ -1,7 +1,7 @@
-var dogs = [{ name: "Piper", hometown: "Noblesville, IN", major: "Talent: Fetching", owner: "Brother Jack Cook", username: "piper" },
-            { name: "Leo", hometown: "St. Louis, MO", major: "Talent: Sleeping", owner: "Brother Carson Meyer", username: "leo"},
-            { name: "Mable", hometown: "Fishers, IN", major: "Talent: Guarding", owner: "Brother Nicholas Barr", username: "mable"},
-            { name: "Socks", hometown: "Robinson, IL", major: "Talent: Parenting", owner: "Brother Jake Powell", username: "socks"}
+var dogs = [{ name: "Piper", hometown: "Noblesville, IN", talent: "Talent: Fetching", owner: "Brother Jack Cook", username: "piper" },
+            { name: "Leo", hometown: "St. Louis, MO", talent: "Talent: Sleeping", owner: "Brother Carson Meyer", username: "leo"},
+            { name: "Mable", hometown: "Fishers, IN", talent: "Talent: Guarding", owner: "Brother Nicholas Barr", username: "mable"},
+            { name: "Socks", hometown: "Robinson, IL", talent: "Talent: Parenting", owner: "Brother Jake Powell", username: "socks"}
 ];
 
 function getDogsCard(dog){
@@ -14,8 +14,8 @@ function getDogsCard(dog){
   html += '<div class="col s9">';
   html += '<h5 class="no-top-margin"><strong>'+dog.name+'</strong></h5>';
   html += '<h6 class="no-margin">'+dog.hometown+'</h6>';
-  html += '<h6>'+dog.major+'</h6>';
-  html += '<h6>'+dog.owner+'</h6>';
+  html += '<h6>'"Talent: "+dog.talent+'</h6>';
+  html += '<h6>'"Owner: "+dog.owner+'</h6>';
   html += '</div>';
   html += '</div>';
   html += '</div>';
