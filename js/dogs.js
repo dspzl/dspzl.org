@@ -1,7 +1,7 @@
-var dogs = [{ name: "Piper", hometown: "Noblesville, IN", major: "Fetch", username: "piper" },
-            { name: "Leo", hometown: "St. Louis, MO", major: "Sleeping", username: "leo"},
-            { name: "Mable", hometown: "Fishers, IN", major: "Guarding", username: "mable"},
-            { name: "Socks", hometown: "Robinson, IL", major: "Parenting", username: "socks"}
+var dogs = [{ name: "Piper", hometown: "Noblesville, IN", major: "Talent: Fetching", username: "piper" },
+            { name: "Leo", hometown: "St. Louis, MO", major: "Talent: Sleeping", username: "leo"},
+            { name: "Mable", hometown: "Fishers, IN", major: "Talent: Guarding", username: "mable"},
+            { name: "Socks", hometown: "Robinson, IL", major: "Talent: Parenting", username: "socks"}
 ];
 
 function getDogsCard(dog){
