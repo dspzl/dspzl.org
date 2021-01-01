@@ -1,6 +1,7 @@
 var dogs = [{ name: "Piper", hometown: "Noblesville, IN", major: "Fetch", username: "piper" },
             { name: "Leo", hometown: "St. Louis, MO", major: "Sleeping", username: "leo"},
-            { name: "Mable", hometown: "Fishers, IN", major: "Guarding", username: "mable"}
+            { name: "Mable", hometown: "Fishers, IN", major: "Guarding", username: "mable"},
+            { name: "Socks", hometown: "Robinson, IL", major: "Parenting", username: "socks"}
 ];
 
 function getDogsCard(dog){
@@ -8,7 +9,7 @@ function getDogsCard(dog){
   html += '<div class="card-panel z-depth-1">';
   html += '<div class="row valign-wrapper no-margin">';
   html += '<div class="col s3">';
-  html += '<img id="' + dog.username + '" src="img/portraits/'+dog.username+'.jpg" alt="" class="circle responsive-img valign">';
+  html += '<img id="' + dog.username + '" src="img/dogs/'+dog.username+'.jpg" alt="" class="circle responsive-img valign">';
   html += '</div>';
   html += '<div class="col s9">';
   html += '<h5 class="no-top-margin"><strong>'+dog.name+'</strong></h5>';
