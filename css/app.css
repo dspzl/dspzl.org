@@ -19,7 +19,16 @@
 #main-scroll .no-top-margin {
   margin-top: 0px;
 }
-/* Overwrites stuff in materailize.css */
+/* Overwrites stuff in materialize.css */
+.nav-wrapper .desktop-nav li {
+  height: 64px;
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-wrapper .desktop-nav li a.active {
+  border-bottom: 4px solid white;
+}
 
 ul.table-of-contents a{
   color:white;
