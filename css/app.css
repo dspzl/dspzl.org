@@ -206,3 +206,31 @@ html[xmlns] .clearfix {
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #388e3c;
 }
+
+@media all and (min-width: 480px){
+  .parallax-container-mobile {
+    position: relative;
+    overflow: hidden;
+    height: 500px; }
+  
+  .parallax-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; }
+    .parallax-mobile img {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      min-height: 100%;
+      background-position: center; }
+}
+@media all and (max-width: 479px){
+  .parallax-mobile img {
+    height: auto;
+    width: 100%;
+  }
+}

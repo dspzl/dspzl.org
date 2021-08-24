@@ -68,15 +68,16 @@ function getBrotherCard(brother){
 }
 
 function buildContainer(brotherList, selector){
+  var html = "";
   for(var i = 0; i < brotherList.length; i += 2){
-    var html = '<div class="row content no-margin">';
+    html += '<div class="row content no-margin">';
     html += getBrotherCard(brotherList[i]);
     if( (i+1) < brotherList.length)
       html += getBrotherCard(brotherList[i+1]);
     html += '</div>';
     html += '</div>';
-    $(selector).append(html);
   }
+  $(selector).append(html); //Only access dom once per container
 }
 
 buildContainer(seniors, "#seniors-container");

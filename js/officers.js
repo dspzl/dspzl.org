@@ -56,15 +56,16 @@ function getOfficerCard(brother){
 }
 
 function buildContainer(brotherList, selector){
+  var html = "";
   for(var i = 0; i < brotherList.length; i += 2){
-    var html = '<div class="row content no-margin">';
+    html += '<div class="row content no-margin">';
     html += getOfficerCard(brotherList[i]);
     if( (i+1) < brotherList.length)
       html += getOfficerCard(brotherList[i+1]);
     html += '</div>';
     html += '</div>';
-    $(selector).append(html);
   }
+  $(selector).append(html); //One dom access per container
 }
 
 buildContainer(elected, "#elected-container");

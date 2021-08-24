@@ -5,33 +5,37 @@ var dogs = [{ name: "Piper", hometown: "Noblesville, IN", talent: "Talent: Fetch
 ];
 
 function getDogsCard(dog){
-  var html = '<div class="col l6">';
-  html += '<div class="card-panel z-depth-1">';
-  html += '<div class="row valign-wrapper no-margin">';
-  html += '<div class="col s3">';
-  html += '<img id="' + dog.username + '" src="img/dogs/'+dog.username+'.jpg" alt="" class="circle responsive-img valign">';
-  html += '</div>';
-  html += '<div class="col s9">';
-  html += '<h5 class="no-top-margin"><strong>'+dog.name+'</strong></h5>';
-  html += '<h6 class="no-margin">'+dog.hometown+'</h6>';
-  html += '<h6>'+dog.talent+'</h6>';
-  html += '<h6>'+dog.owner+'</h6>';
-  html += '</div>';
-  html += '</div>';
-  html += '</div>';
-  html += '</div>';
-  return html;
+  return `
+    <div class="col l6">
+      <div class="card-panel z-depth-1">
+        <div class="row valign-wrapper no-margin">
+          <div class="col s3">
+            <img id="${dog.username}" src="img/dogs/${dog.username}.jpg" alt="" class="circle responsive-img valign">
+          </div>
+          <div class="col s9">
+            <h5 class="no-top-margin"><strong>${dog.name}</strong></h5>
+            <h6 class="no-margin">${dog.hometown}</h6>
+            <h6>${dog.talent}</h6>
+            <h6>${dog.owner}</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
 }
 
-
-//add dogs
-for(var i=0; i<dogs.length; i+=2){
-  var html = '<div class="row content no-margin">';
-  html += getDogsCard(dogs[i]);
-  if( (i+1) < dogs.length){
-    html += getDogsCard(dogs[i+1]);
+function buildContainer(dogs, selector) {
+  var html = '';
+  for(var i=0; i < dogs.length; i+=2){
+    html += '<div class="row content no-margin">';
+    html += getDogsCard(dogs[i]);
+    if( (i+1) < dogs.length){
+      html += getDogsCard(dogs[i+1]);
+    }
+    html += '</div>';
+    html += '</div>';
   }
-  html += '</div>';
-  html += '</div>';
-  $("#dogs-container").append(html);
+  $(selector).append(html);
 }
+
+buildContainer(dogs, "#dogs-container");
