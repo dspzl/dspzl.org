@@ -207,6 +207,13 @@ html[xmlns] .clearfix {
   background: #388e3c;
 }
 
+.rush-img{
+  max-height:100%; 
+  max-width:100%;
+  /* margin-bottom: 10px; */
+  /* display: inline-block; */
+}
+
 @media all and (min-width: 480px){
   .parallax-container-mobile {
     position: relative;
@@ -227,10 +234,18 @@ html[xmlns] .clearfix {
       width: 100%;
       min-height: 100%;
       background-position: center; }
+  .rush-img{
+    margin-right: 15px;
+    width: 480px;
+    height: 400px;
+  }
 }
-@media all and (max-width: 479px){
+@media all and (max-width: 480px){
   .parallax-mobile img {
     height: auto;
     width: 100%;
+  }
+  .hidden-tablet-up{
+    display: none; 
   }
 }

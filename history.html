@@ -8,7 +8,7 @@
     content="Delta Sigma Phi Fraternity | Zeta Lambda Chapter | Rose-Hulman Institute of Technology">
 
   <link rel="shortcut icon" href="ico/favicon.ico">
-  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/app.css" media="screen,projection" />
   <title>&#916;&#931;&#934; &#918;&#923;</title>
 </head>
@@ -54,7 +54,7 @@
                 or race not only attracted other idealists as City College of New York, it set the stage for expansion
                 onto other campuses.</p>
             </div>
-            <div id="crest" class="col l3 m4">
+            <div class="col l3 m4 hidden-tablet-up">
               <img src="img/history/crest.png"></img>
             </div>
           </div>
@@ -100,7 +100,7 @@
                 Harshberger and his father. The Sphinx was carved by Wayne's father in 2003. While the house shows its
                 age and use, our hope is that it is the gathering place for brothers for many years to come.
             </div>
-            <div id="pledge-pin" class="col l3">
+            <div class="col l3 hidden-tablet-up">
               <img src="img/history/pledge-pin.png"></img>
             </div>
           </div>
@@ -121,12 +121,6 @@
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/site-components.js"></script>
   <script type="text/javascript" src="js/base.js"></script>
-  <script>
-    if (window.matchMedia("(max-width: 480px)").matches) {
-      document.querySelector("#crest").remove();
-      document.querySelector("#pledge-pin").remove();
-    }
-  </script>
 </body>
 
 </html>
