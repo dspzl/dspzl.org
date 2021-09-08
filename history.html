@@ -4,127 +4,103 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="description" content="Delta Sigma Phi Fraternity | Zeta Lambda Chapter | Rose-Hulman Institute of Technology">
+  <meta name="description"
+    content="Delta Sigma Phi Fraternity | Zeta Lambda Chapter | Rose-Hulman Institute of Technology">
 
   <link rel="shortcut icon" href="ico/favicon.ico">
-  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/app.css" media="screen,projection" />
-
-
-
-  <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
   <title>&#916;&#931;&#934; &#918;&#923;</title>
 </head>
 
 <body>
-  <header>
-      <ul id="dropdown-hares" class="dropdown-content">
-          <li><a href="pdf/hare-spring-2008-2009.pdf">Spring 2008-09</a></li>
-          <li><a href="pdf/hare-fall-2009-2010.pdf">Fall 2009-10</a></li>
-          <li><a href="pdf/hare-winter-2009-2010.pdf">Winter 2009-10</a></li>
-          <li><a href="pdf/hare-spring-2009-2010.pdf">Spring 2009-10</a></li>
-          <li><a href="pdf/hare-fall-2010-2011.pdf">Fall 2010-11</a></li>
-          <li><a href="pdf/hare-winter-2010-2011.pdf">Winter 2010-11</a></li>
-          <li><a href="pdf/hare-spring-2012-2013.pdf">Spring 2012-13</a></li>
-          <li><a href="pdf/hare-spring-2013-2014.pdf">Spring 2013-14</a></li>
-          <li><a href="pdf/hare-winter-2015-2016.pdf">Winter 2015-16</a></li>
-          <li><a href="pdf/hare-winter-2016-2017.pdf">Winter 2016-17</a></li>
-          <li><a href="pdf/hare-spring-2016-2017.pdf">Spring 2016-17</a></li>
-          <li><a href="pdf/hare-fall-2017-2018.pdf">Fall 2017-18</a></li>
-          <li><a href="pdf/hare-winter-2017-2018.pdf">Winter 2017-18</a></li>
-          <li><a href="pdf/hare-fall-2018-2019.pdf">Fall 2018-19</a></li>
-          <li><a href="pdf/hare-spring-2018-2019.pdf">Spring 2018-19</a></li>
-      </ul>
-
-    <nav class="green darken-2">
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo hide-on-med-and-down" style="">&#916;&#931;&#934; &#918;&#923;</a>
-        <span class="brand-logo center hide-on-large-only">History</span>
-        <a href="" data-activates="mobile-menu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-        <ul class="right desktop-nav hide-on-med-and-down">
-          <li><a href="brothers.html">Brothers</a></li>
-          <li><a href="officers.html">Officers</a></li>
-          <li><a href="newmembers.html">New Members</a></li>
-          <li><a href="rush.html">Rush</a></li>
-          <li><a class="active" href="history.html">History</a></li>
-          <li><a href="brotherhood.html">Brotherhood</a></li>
-          <li><a href="dogs.html">Dogs</a></li>
-          <li><a class="dropdown-button" href="" data-activates="dropdown-hares">Hares<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="brothers.html">Brothers</a></li>
-          <li><a href="officers.html">Officers</a></li>
-          <li><a href="newmembers.html">New Members</a></li>
-          <li><a href="rush.html">Rush</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="brotherhood.html">Philanthropy</a></li>
-          <li><a href="dogs.html">Dogs</a></li>
-          <ul class="collapsible" data-collapsible="accordion">
-            <li>
-              <div class="collapsible-header green-text text-darken-3">Hares<i class="mdi-navigation-arrow-drop-down right"></i></div>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="pdf/hare-spring-2008-2009.pdf">Spring 2008-09</a></li>
-                  <li><a href="pdf/hare-fall-2009-2010.pdf">Fall 2009-10</a></li>
-                  <li><a href="pdf/hare-winter-2009-2010.pdf">Winter 2009-10</a></li>
-                  <li><a href="pdf/hare-spring-2009-2010.pdf">Spring 2009-10</a></li>
-                  <li><a href="pdf/hare-fall-2010-2011.pdf">Fall 2010-11</a></li>
-                  <li><a href="pdf/hare-winter-2010-2011.pdf">Winter 2010-11</a></li>
-                  <li><a href="pdf/hare-spring-2012-2013.pdf">Spring 2012-13</a></li>
-                  <li><a href="pdf/hare-spring-2013-2014.pdf">Spring 2013-14</a></li>
-                  <li><a href="pdf/hare-winter-2016-2017.pdf">Winter 2016-17</a></li>
-                  <li><a href="pdf/hare-spring-2016-2017.pdf">Spring 2016-17</a></li>
-                  <li><a href="pdf/hare-winter-2017-2018.pdf">Spring 2017-18</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <site-header></site-header>
 
   <main id="main-scroll">
     <div class="row">
       <div class="col l12 no-padding">
-        <div class="parallax-container">
-          <div class="parallax"><img src="img/history/dsp-old.jpg"></div>
+        <div class="parallax-container-mobile">
+          <div class="parallax-mobile"><img src="img/history/dsp-old.jpg"></div>
         </div>
         <!-- National -->
         <div id="fraternity" class="section white scrollspy">
           <div class="row container">
             <h2 class="header">National Fraternity</h2>
-            <div class="col l8">
-              <p>As the door closed on the final moments of the nineteenth century, a handful of undergraduate men began meeting between classes at City College of New York. Some had known one another before they graduated from the New York public school system, and they had wanted to continue their friendships at City College. The obvious solution was to join a fraternity, but there was just one problem: This was no ordinary group of undergraduates. They were an affiliation of Jews and Christians; and, at the time, entry to all-Jewish and all-Christian fraternities was barred to individuals and groups that mixed religions.</p>
-              <p>Given that their close association challenged the conventional behavior of the day, perhaps it was only natural that the undergraduates took an even bolder step by founding their own Fraternity on December 10, 1899. Symbolized by the Greek letters Delta, Sigma, and Phi, the Fraternity was based on the principle of the universal brotherhood of man.</p>
-              <p>Uptown from City College at Columbia University, the second chapter was organized in 1901 but did not become a chapter until 1902. To differentiate the chapters, the first was called Insula, from the Latin insularis, since it was on the island of Manhattan. Because of its location in Morningside Heights, the new chapter was called Morningside.</p>
-              <p>Delta Sigma Phi was incorporated in New York City on December 2, 1902. Five members of Insula signed the incorporation papers, with the stated objectives of dissemination "the principles of friendship and brotherhood among college men, without respect to race or creed." The early organizers, including Meyer Boskey (Insula), also drafted Delta Sigma Phi's laws, requiring open membership to all college men of quality. The purpose of the Fraternity, written the same year, was "to fulfill the desire of serious young college men for a fellowship and brotherhood, as near a practical working ideal as possible not fettered with too many traditional prejudices and artificial standards of membership, and accompanied by a clean, pure, honorable chapter home life."</p>
-              <p>The basic concept of the Fraternity-embracing brotherhood and congeniality without regard to religion or race not only attracted other idealists as City College of New York, it set the stage for expansion onto other campuses.</p>
+            <div class="col l7 m8">
+              <p>As the door closed on the final moments of the nineteenth century, a handful of undergraduate men began
+                meeting between classes at City College of New York. Some had known one another before they graduated
+                from the New York public school system, and they had wanted to continue their friendships at City
+                College. The obvious solution was to join a fraternity, but there was just one problem: This was no
+                ordinary group of undergraduates. They were an affiliation of Jews and Christians; and, at the time,
+                entry to all-Jewish and all-Christian fraternities was barred to individuals and groups that mixed
+                religions.</p>
+              <p>Given that their close association challenged the conventional behavior of the day, perhaps it was only
+                natural that the undergraduates took an even bolder step by founding their own Fraternity on December
+                10, 1899. Symbolized by the Greek letters Delta, Sigma, and Phi, the Fraternity was based on the
+                principle of the universal brotherhood of man.</p>
+              <p>Uptown from City College at Columbia University, the second chapter was organized in 1901 but did not
+                become a chapter until 1902. To differentiate the chapters, the first was called Insula, from the Latin
+                insularis, since it was on the island of Manhattan. Because of its location in Morningside Heights, the
+                new chapter was called Morningside.</p>
+              <p>Delta Sigma Phi was incorporated in New York City on December 2, 1902. Five members of Insula signed
+                the incorporation papers, with the stated objectives of dissemination "the principles of friendship and
+                brotherhood among college men, without respect to race or creed." The early organizers, including Meyer
+                Boskey (Insula), also drafted Delta Sigma Phi's laws, requiring open membership to all college men of
+                quality. The purpose of the Fraternity, written the same year, was "to fulfill the desire of serious
+                young college men for a fellowship and brotherhood, as near a practical working ideal as possible not
+                fettered with too many traditional prejudices and artificial standards of membership, and accompanied by
+                a clean, pure, honorable chapter home life."</p>
+              <p>The basic concept of the Fraternity-embracing brotherhood and congeniality without regard to religion
+                or race not only attracted other idealists as City College of New York, it set the stage for expansion
+                onto other campuses.</p>
             </div>
-            <div class="col l4">
-              <img src="img/history/crest.png" ></img>
+            <div class="col l3 m4 hidden-tablet-up">
+              <img src="img/history/crest.png"></img>
             </div>
           </div>
         </div>
-        <div class="parallax-container">
-          <div class="parallax"><img src="img/history/dsp-old.jpg"></div>
+        <div class="parallax-container-mobile">
+          <div class="parallax-mobile"><img src="img/history/dsp-old.jpg"></div>
         </div>
         <!-- Chapter -->
         <div id="chapter" class="section white scrollspy">
           <div class="row container">
             <h2 class="header">Our Chapter</h2>
-            <div class="col l8">
-              <p>The fraternity house is located at 429 South 6th Street in Terre Haute, Indiana. It was built in 1905 by Edward Page Fairbanks. The builder was most likely William J. White, and the style of the house is Colonial Revival. There have been four owners. From 1905 until his death in 1926, Edward owned it. From there it passed to his wife, Helen Gray Fairbanks, who occupied the house until 1955. She died September 2nd, 1955 at the age of 93. Shortly thereafter, the Terre Haute Department of Public Welfare purchased the house. They moved into the house in 1957. In 1982 the Welfare Department moved to the courthouse complex and the house went up for auction.</p>
-              <p>Bidding started at $67,000 and the Zeta Lambda chapter of Delta Sigma Phi acquired the house for $106,000. According to the cutline of a photograph in the Tribune-Star, the house was sold to "Delta Sigma Phi fraternity of Indiana State University..." The ISU graciously turned it over to us after purchase. (There was no ISU chapter in 1982.)</p>
-              <p>Edward Page Fairbanks was born January 3rd, 1850, the son of Henry and Emeline (Crawford) Fairbanks. On April 16th, 1873 he married Candace J. Hosford. She died November 23rd, 1879, and Edward remarried in 1888. His second wife was Helen Aston Gray. They had one daughter, Helen Pauline Fairbanks, born October 2nd, 1891. Edward was involved in many businesses in Terre Haute, and he and his brother Crawford donated Fairbanks Park and Paul Dresser Drive to the city. He was also involved with the Terre Haute Brewing Company, which produced 23,000 barrels of beer in 1890, 50,000 barrels in 1891, and 60,000 barrels in 1892. Contrary to popular belief (at least among the active chapter in the early 90's), Edward was not the mayor of Terre Haute, but his father Henry was.</p>
-              <p>After the chapter purchased the house in 1982, the brothers make substantial modifications, including adding the original showers in the basement. According to A.J. Fossett, the circular stairway emergency exit from the attic was put in by brothers after the start of school in 1982. The barbecue pit was added as a pledge project in 1983.</p>
-              <p>Back in 1957, the Welfare Department sought bids for remodeling the house. Most of the work was not done. The most significant change that was completed was the main staircase to the basement. The original plans for the remodel still exist and are part of the historian's files.</p>
-              <p>Since 1983, many changes have been made. Some of those include the removal of vinyl flooring and refinishing of the original wood flooring in the majority of the first floor (completed in 1991), a complete remodel of the shower and laundry facilities, and a complete refurbishment of the electrical system. Windows in much of the house have been replaced as well. The outdoor sign was donated by Wayne Harshberger and his father. The Sphinx was carved by Wayne's father in 2003. While the house shows its age and use, our hope is that it is the gathering place for brothers for many years to come.
+            <div class="col l7">
+              <p>The fraternity house is located at 429 South 6th Street in Terre Haute, Indiana. It was built in 1905
+                by Edward Page Fairbanks. The builder was most likely William J. White, and the style of the house is
+                Colonial Revival. There have been four owners. From 1905 until his death in 1926, Edward owned it. From
+                there it passed to his wife, Helen Gray Fairbanks, who occupied the house until 1955. She died September
+                2nd, 1955 at the age of 93. Shortly thereafter, the Terre Haute Department of Public Welfare purchased
+                the house. They moved into the house in 1957. In 1982 the Welfare Department moved to the courthouse
+                complex and the house went up for auction.</p>
+              <p>Bidding started at $67,000 and the Zeta Lambda chapter of Delta Sigma Phi acquired the house for
+                $106,000. According to the cutline of a photograph in the Tribune-Star, the house was sold to "Delta
+                Sigma Phi fraternity of Indiana State University..." The ISU graciously turned it over to us after
+                purchase. (There was no ISU chapter in 1982.)</p>
+              <p>Edward Page Fairbanks was born January 3rd, 1850, the son of Henry and Emeline (Crawford) Fairbanks. On
+                April 16th, 1873 he married Candace J. Hosford. She died November 23rd, 1879, and Edward remarried in
+                1888. His second wife was Helen Aston Gray. They had one daughter, Helen Pauline Fairbanks, born October
+                2nd, 1891. Edward was involved in many businesses in Terre Haute, and he and his brother Crawford
+                donated Fairbanks Park and Paul Dresser Drive to the city. He was also involved with the Terre Haute
+                Brewing Company, which produced 23,000 barrels of beer in 1890, 50,000 barrels in 1891, and 60,000
+                barrels in 1892. Contrary to popular belief (at least among the active chapter in the early 90's),
+                Edward was not the mayor of Terre Haute, but his father Henry was.</p>
+              <p>After the chapter purchased the house in 1982, the brothers make substantial modifications, including
+                adding the original showers in the basement. According to A.J. Fossett, the circular stairway emergency
+                exit from the attic was put in by brothers after the start of school in 1982. The barbecue pit was added
+                as a pledge project in 1983.</p>
+              <p>Back in 1957, the Welfare Department sought bids for remodeling the house. Most of the work was not
+                done. The most significant change that was completed was the main staircase to the basement. The
+                original plans for the remodel still exist and are part of the historian's files.</p>
+              <p>Since 1983, many changes have been made. Some of those include the removal of vinyl flooring and
+                refinishing of the original wood flooring in the majority of the first floor (completed in 1991), a
+                complete remodel of the shower and laundry facilities, and a complete refurbishment of the electrical
+                system. Windows in much of the house have been replaced as well. The outdoor sign was donated by Wayne
+                Harshberger and his father. The Sphinx was carved by Wayne's father in 2003. While the house shows its
+                age and use, our hope is that it is the gathering place for brothers for many years to come.
             </div>
-            <div class="col l4">
+            <div class="col l3 hidden-tablet-up">
               <img src="img/history/pledge-pin.png"></img>
             </div>
           </div>
@@ -140,46 +116,11 @@
     </div>
   </main>
 
-
-  <footer class="page-footer">
-    <div class="container">
-        <div class="row">
-
-          <div class="col l3 m12 s12" style="overflow: hidden;">
-            <h4 class="white-text valign">Contact</h4>
-            <ul>
-              <li><a href="mailto:bissmepj@rose-hulman.edu" class="green-text text-accent-1">President</a></li>
-              <li><a href="mailto:hansonca@rose-hulman.edu" class="green-text text-accent-1">Vice President</a></li>
-              <li><a href="mailto:theneltj@rose-hulman.edu" class="green-text text-accent-1">Rush Director</a></li>
-              <li><a href="mailto:meyerc1@rose-hulman.edu" class="green-text text-accent-1">Webmaster</a></li>
-            </ul>
-          </div>
-          <div class="col l5 m12 s12">
-            <h4 class="white-text valign">Location</h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.338023620965!2d-87.41042449999996!3d39.461691699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d65320ce95333%3A0xa93085f04e4dafce!2s429+S+6th+St%2C+Terre+Haute%2C+IN+47807!5e0!3m2!1sen!2sus!4v1425759548538" width="400" height="300" frameborder="0" style="border:0"></iframe>
-          </div>
-          <div class="col l3 m12 s12">
-            <h4 class="white-text valign">Links</h4>
-            <ul>
-              <li><a href="http://www.deltasig.org/" class="green-text text-accent-1">Headquarters</a></li>
-              <li><a href="http://www.rose-hulman.edu/" class="green-text text-accent-1">Rose-Hulman Institute of Technology</a></li>
-              <li><a href="http://www.rose-hulman.edu/student-life/greek-life/intrafraternity-council.aspx" class="green-text text-accent-1">Interfraternity Council</a></li>
-              <li><a href="http://www.dspzlalumni.org/" class="green-text text-accent-1">Alumni</a></li>
-              <li><a href="http://www.dspzlalumni.org/forums/" class="green-text text-accent-1">Forums</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    <div class="footer-copyright">
-      <div class="container">
-        &copy; 2015 &#916;&#931;&#934; &#918;&#923; &bull; 429 S. 6<sup>th</sup> St. &bull; Terre Haute, IN 47807 &bull; (812) 234-0969
-      </div>
-    </div>
-  </footer>
-
+  <site-footer></site-footer>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/site-components.js"></script>
   <script type="text/javascript" src="js/base.js"></script>
 </body>
+
 </html>
