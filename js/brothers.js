@@ -17,8 +17,9 @@ var seniors = [
     { name: "Jacob Dietrich Tebbe", hometown: "Lebanon, OH", major: "Electrical Engineering", username: "tebbejd" },
     { name: "Tyler Joe Thenell", hometown: "West Milford, NJ", major: "Computer Engineering", username: "theneltj" },
     { name: "Geoffrey Barton Tomlinson", hometown: "Houston, TX", major: "Computer Engineering", username: "tomlingb" },
-    { name: "Shengjun Guan", hometown: "Wenzhou, China", major: "Mathematics", username: "guans"}
-];
+    { name: "Robert Dilbert DeBerry", hometown: "Farm, IN", major: "Mechanical Engineering", username: "deberrr"},
+    { name: "William Woke McEvoy", hometown: "Chicago, IL", major: "Computer Science", username: "mcevoywj"}
+  ];
 
 var juniors = [
     {name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Mechanical Engineering", username: "allenvj"},
@@ -85,3 +86,6 @@ buildContainer(seniors, "#seniors-container");
 buildContainer(juniors, "#juniors-container");
 
 buildContainer(sophomores, "#sophomores-container");
+
+// Tenn ball
+$("#barrnp").hover( () => $("#barrnp").attr("src","img/portraits/BarrTennisBall.jpg"), () => $("#barrnp").attr("src","img/portraits/barrnp.jpg"));
