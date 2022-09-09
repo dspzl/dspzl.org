@@ -16,7 +16,6 @@ const pageList = `
   <li><a href="rush.html">Rush</a></li>
   <li><a href="history.html">History</a></li>
   <li><a href="brotherhood.html">Brotherhood</a></li>
-  <li><a href="dogs.html">Dogs</a></li>
 `;
 
 const hareList = `
