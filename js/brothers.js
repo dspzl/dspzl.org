@@ -1,56 +1,34 @@
-/* Update the brothers list here */
+/* brothers.json is read here and used to build the brothers.html page */
 
-var seniors = [
-  { name: "Nasser Nadim Hegar", hometown: "Noblesville, IN", major: "Computer Engineering", username: "hegarnn" },
-  { name: "Brian Michael Huyge", hometown: "Marshall, MI", major: "Chemical Engineering", username: "huygebm" },
-  { name: "Michael James Johnson", hometown: "Gothenburg, Sweden", major: "Mechanical Engineering", username: "johnsom4" },
-  { name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Mechanical Engineering", username: "allenvj" },
-  { name: "William Bartlett Bowman", hometown: "Germantown, OH", major: "Mathematics", username: "bowmanwb" },
-  { name: "Sang Heon Choi", hometown: "Sungnam, South Korea", major: "Computer Science", username: "chois3" },
-  { name: "John 'Yoon Su' Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy" },
-  { name: "Brendon Michael Crabtree", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "crabtrbm" },
-  { name: "Ethan Benjamin Drong", hometown: "Lockport, IL", major: "Mechanical Engineering", username: "drongeb" },
-  { name: "Jameson Michael Jochheim", hometown: "Round Lake, IL", major: "Mechanical Engineering", username: "jochhejm" },
-  { name: "Samuel Edward Johnson", hometown: "Oldenburg, IN", major: "Mechanical Engineering", username: "johnsose" },
-  { name: "Joshua Steven Mitterling", hometown: "Noblesville, IN", major: "Computer Engineering", username: "mitterj" },
-  { name: "Aidan Drew Morris", hometown: "Richmond, IN", major: "Chemical Engineering", username: "morrisad" },
-  { name: "Collin Mao Morris", hometown: "Shanghai, China", major: "Computer Science", username: "morrisc1" },
-  { name: "David Jason Purdy", hometown: "Franklin, IN", major: "Computer Science", username: "purdydj" },
-  { name: "Carl Frederick Quist", hometown: "Marshall, MI", major: "Mechanical Engineering", username: "quistcf" },
-  { name: "Jack Phillip Raker", hometown: "Palatine, IL", major: "Chemical Engineering", username: "rakerjp" },
-  { name: "Mason Darrell Reid", hometown: "Glasgow, KY", major: "Biology", username: "reidmd" },
-  { name: "Luke Abraham Wendel", hometown: "Noblesville, IN", major: "Computer Engineering", username: "wendella" },
-  { name: "Ethan Douglas Whetter", hometown: "Santa Barbara, CA", major: "Biomedical Engineering", username: "whetteed" }
-];
+var data = fetch('../data/brothers.json')
+.then(response => response.json())
+.then(data => {
 
-var juniors = [
-  { name: "Richard Wayne Barker III", hometown: "Columbia, IL", major: "Engineering Design", username: "barkerrw" },
-  { name: "Aidan Jeffery Sturgeon", hometown: "West Lafayette, IN", major: "Mechanical Engineering", username: "sturgeaj" },
-  { name: "Mason Steven Wykes", hometown: "Greenville, OH", major: "Mechanical Engineering", username: "wykesms" },
-];
+  if (data.seniors.length != 0) {
+    buildSection("seniors");
+    buildContainer(data.seniors, "#seniors-container");
+    $("#brothers-content").append(`<li><a href="#seniors">Seniors</a></li>`);
+  }
 
-var sophomores = [
-  { name: "Ziyu 'Leonardo' Xie", hometown: "Chengdu City, China", major: "Computer Engineering", username: "xiez6" },
-  { name: "Ian 'Earl' Christopher Resnik", hometown: "Pittsburgh, PA", major: "Mechanical Engineering", username: "resnikic" },
-  { name: "Nikita Romanovich Egorov", hometown: "Fishers, IN", major: "Electrical Engineering", username: "egorovn" },
-  { name: "Joshua Quinn Shrock", hometown: "Goshen, IN", major: "Computer Engineering", username: "shrocjq" },
-  { name: "Aidan Donald Janc", hometown: "Chicago, IL", major: "Computer Science", username: "jancad" },
-  { name: "Ian Henry Stedham", hometown: "Columbia, MD", major: "Computer Science", username: "stedhai" },
-  { name: "Adam Steven Deckard", hometown: "Nashville, TN", major: "Mechanical Engineering", username: "deckaras" },
-  { name: "Nathan Rupert Pratt", hometown: "Hopewell, NJ", major: "Eng. Physics", username: "prattnr" },
-  { name: "Zachary ZheYing Cao", hometown: "Louisville, KY", major: "Computer Science", username: "caozz" },
-  { name: "Andrew Dietrich Nichols", hometown: "Houston, TX", major: "Mechanical Engineering", username: "nicolad" },
-  { name: "Apollo Jackson Picot", hometown: "Rockton, IL", major: "Mechanical Engineering", username: "picotaj" },
-  { name: "Damian Ivan Dalic", hometown: "Chicago, IL", major: "Computer Science", username: "dalicdi" },
-  { name: "Matthew Li Hart", hometown: "Clarksville, MD", major: "Electrical Engineering", username: "hartml" },
-  { name: "Drew Ryan Kilner", hometown: "Louisville, KY", major: "Computer Engineering", username: "kilnerdr" },
-  { name: "James 'Zeno' Day", hometown: "Lexington, KY", major: "Computer Science", username: "dayjz" },
-  { name: "Anuj Suvarna", hometown: "St. Charles, IL", major: "Computer Engineering", username: "suvarna1" },
-  { name: "Vincent Donovan Hammer", hometown: "Noblesville, IN", major: "Optical Engineering", username: "hammervd" },
-  { name: "Junki Lee", hometown: "Montrose, CA", major: "Computer Engineering", username: "leej25" },
-];
+  if (data.juniors.length != 0) {
+    buildSection("juniors");
+    buildContainer(data.juniors, "#juniors-container");
+    $("#brothers-content").append(`<li><a href="#juniors">Juniors</a></li>`);
+  }
 
+  if (data.sophomores.length != 0) {
+    buildSection("sophomores");
+    buildContainer(data.sophomores, "#sophomores-container");
+    $("#brothers-content").append(`<li><a href="#sophomores">Sophomores</a></li>`);
+  }
+  
+  if (data.freshman.length != 0) {
+    buildSection("freshman");
+    buildContainer(data.freshman, "#freshman-container");
+    $("#brothers-content").append(`<li><a href="#freshman">Freshman</a></li>`);
+  }
 
+});
 
 function getBrotherCard(brother){
   var email = brother.username + '@rose-hulman.edu';
@@ -106,30 +84,6 @@ function buildSection(section) {
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-// TODO: Only show the sections if there are brothers for it
-if (seniors != null && seniors.length != 0) {
-  buildSection("seniors");
-  buildContainer(seniors, "#seniors-container");
-  $("#brothers-content").append(`<li><a href="#seniors">Seniors</a></li>`);
-}
-
-if (juniors != null && juniors.length != 0) {
-  buildSection("juniors");
-  buildContainer(juniors, "#juniors-container");
-  $("#brothers-content").append(`<li><a href="#juniors">Juniors</a></li>`);
-}
-
-if (sophomores != null && sophomores.length != 0) {
-  buildSection("sophomores");
-  buildContainer(sophomores, "#sophomores-container");
-  $("#brothers-content").append(`<li><a href="#sophomores">Sophomores</a></li>`);
-}
-if (freshman != null && freshman.length != 0) {
-  buildSection("freshman");
-  buildContainer(freshman, "#freshman-container");
-  $("#brothers-content").append(`<li><a href="#freshman">Freshman</a></li>`);
 }
 
 // Tenn ball
