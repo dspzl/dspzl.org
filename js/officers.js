@@ -1,37 +1,37 @@
 var elected = [
-    { position: 'President', name: 'Brendon Michael Crabtree', username: "crabtrbm" },
-    { position: 'Vice President', name: "Vance Joesph Allen", username: "allenvj" },
-    { position: 'Tresurer', name: "Jack Phillip Raker", username: "rakerjp" },
-    { position: 'Steward', name: "Mason Steven Wykes", username:"wykesms" },
-    { position: 'House Director', name: "Apollo Jackson Picot", username:"picotaj" },
-    { position: 'Secretary', name: "Nikita Romanovich Egorov", username:"egorovn" },
-    { position: 'Philanthropy Director', name: "Drew Ryan Kilna", username:"kilnerdr"},
-    { position: 'Sergeant-at-Arms', name: "Ethan Benjamin Drong", username:"drongeb" },
-    { position: 'Rush Director', name: "Sang Heon Choi", username:"chois3" },
-    { position: 'Rush Director', name: "Joshua Quinn Shrock", username:"shrocjq"},
-    { position: 'Social Director', name: "David Jason Purdy", username:"purdydj" },
-    { position: 'Bid Selection Committee Chairman', name:"Luke Abraham Wendel", username:"wendella" },
-    { position: 'New Member Educator', name: "Joshua Steven Mitterling", username:"mitterj" }
+    { position: 'President', name: "Nikita Romanovich Egorov", username:"egorovn" },
+    { position: 'Vice President', name: "Vincent Donovan Hammer", username: "hammervd" },
+    { position: 'Tresurer', name: "Ian Henry Stedham", username: "stedhai" },
+    { position: 'Steward', name: "Nathan Rupert Pratt", username:"prattnr" },
+    { position: 'House Director', name: "Jameson Michael Jochheim", username:"jochhejm" },
+    { position: 'Secretary', name:"Zachary ZheYing Cao", username:"caozz" },
+    { position: 'Philanthropy Director', name: "Ian 'Earl' Christopher Resnik", username:"resnikic"},
+    { position: 'Sergeant-at-Arms', name:'Adam Steven Deckard', username:"deckaras" },
+    { position: 'Rush Director', name: "Aidan Donald Janc", username:"jancad" },
+    { position: 'Rush Director', name: "Noah Robert Gerschutz", username:"gerschnr"},
+    { position: 'Social Director', name: "Joshua Quinn Shrock", username:"shrocjq"},
+    { position: 'Bid Selection Committee Chairman', name: "Matthew Li Hart", username:"hartml"},
+    { position: 'New Member Educator', name: "Mason Darrell Reid", username:"reidmd" }
 ];
 
 var appointed = [
-    { position:'Activities Director', name:'Adam Steven Deckard', username:"deckaras" },
-    { position: 'Athletics Director', name: "Apollo Jackson Picot", username:"picotaj" },
-    { position: 'Interfraternity Council Representative', name: 'Joshua Steven Mitterling', username: "mitterj" },
-    { position: 'Interfraternity Council Representative', name: "Carl Frederick Quist", username:"quistcf" },
-    { position: 'Public Relations Director', name: "Brendon Michael Crabtree", username:"crabtrbm" },
-    { position: 'Alumni Director', name: "Sang Heon Choi", username:"chois3" },
-    { position: 'Chaplain', name: "Mason Darrell Reid", username:"reidmd" },
-    { position: 'Editor', name: "Ziyu 'Leonardo' Xie", username: "xiez6" },
-    { position: 'Historian', name:"Zachary ZheYing Cao", username:"caozz" },
-    { position: 'Technology Director', name: "Jameson Michael Jochheim", username:"jochhejm" },
-    { position: 'Webmaster', name: "David Jason Purdy", username:"purdydj" },
-    { position: 'Student Government Association Representative', name: "Matthew Li Hart", username:"hartml" },
+    { position:'Activities Director', name:'Braxton Micheal Gabbard', username:"gabarbm" },
+    { position: 'Athletics Director', name: "Ethan James Parsons", username:"parsonej" },
+    { position: 'Interfraternity Council Representative', name:'Adam Steven Deckard', username:"deckaras" },
+    { position: 'Interfraternity Council Representative', name: "Asher Lennon Blythe", username:"blytheal" },
+    { position: 'Public Relations Director', name: "Ethan Conner Minckler", username:"mincklec" },
+    { position: 'Alumni Director', name:"Zachary ZheYing Cao", username:"caozz" },
+    { position: 'Chaplain', name: "Carl Frederick Quist", username:"quistcf" },
+    { position: 'Editor', name: "Apollo Jackson Picot", username:"picotaj" },
+    { position: 'Historian', name: "Nikita Romanovich Egorov", username:"egorovn" },
+    { position: 'Technology Director', name: "Aidan Jeffery Sturgeon", username:"sturgeaj" },
+    { position: 'Webmaster', name: "Joshua Wai Kit Jue", username:"juejw" },
+    { position: 'Student Government Association Representative', name: "Jake Richard Vincent", username:"vincenjr" },
     { position: 'Song Leader', name: "Andrew Dietrich Nichols", username: "nicolad" },
 ];
 
 var advisors = [
-  { position:'Professor of Electrical and Computer Engineering', name:'Dr. Cliff Grigg', username:"grigg" },
+  { position:'Professor of Electrical and Computer Engineering', name:'Dr. Marc Herniter', username:"herniter" },
   { position:'Physics & Optical Engineering Department Technician', name:'Ben Webster', username:"webster" }
 ];
 

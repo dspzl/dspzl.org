@@ -1,10 +1,10 @@
 /* Update the brothers list here */
 
 var seniors = [
-  { name: "Nasser Nadim Hegar", hometown: "Noblesville, IN", major: "Computer Engineering", username: "hegarnn" },
+  //{ name: "Nasser Nadim Hegar", hometown: "Noblesville, IN", major: "Computer Engineering", username: "hegarnn" },
   { name: "Brian Michael Huyge", hometown: "Marshall, MI", major: "Chemical Engineering", username: "huygebm" },
   { name: "Michael James Johnson", hometown: "Gothenburg, Sweden", major: "Mechanical Engineering", username: "johnsom4" },
-  { name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Mechanical Engineering", username: "allenvj" },
+  { name: "Vance Joseph Allen", hometown: "San Diego, CA", major: "Mechanical Engineering", username: "allenvj", link:"https://www.rosepikes.com/" },
   { name: "William Bartlett Bowman", hometown: "Germantown, OH", major: "Mathematics", username: "bowmanwb" },
   { name: "Sang Heon Choi", hometown: "Sungnam, South Korea", major: "Computer Science", username: "chois3" },
   { name: "John 'Yoon Su' Chung", hometown: "Santa Clara, CA", major: "Engineering Design", username: "chungy" },
@@ -27,6 +27,7 @@ var juniors = [
   { name: "Richard Wayne Barker III", hometown: "Columbia, IL", major: "Engineering Design", username: "barkerrw" },
   { name: "Aidan Jeffery Sturgeon", hometown: "West Lafayette, IN", major: "Mechanical Engineering", username: "sturgeaj" },
   { name: "Mason Steven Wykes", hometown: "Greenville, OH", major: "Mechanical Engineering", username: "wykesms" },
+  { name: "Braxton Micheal Gabbard", hometown: "Terre Haute, IN", major: "Civil Engineering", username: "gabarbm"},
 ];
 
 var sophomores = [
@@ -45,10 +46,25 @@ var sophomores = [
   { name: "Matthew Li Hart", hometown: "Clarksville, MD", major: "Electrical Engineering", username: "hartml" },
   { name: "Drew Ryan Kilner", hometown: "Louisville, KY", major: "Computer Engineering", username: "kilnerdr" },
   { name: "James 'Zeno' Day", hometown: "Lexington, KY", major: "Computer Science", username: "dayjz" },
-  { name: "Anuj Suvarna", hometown: "St. Charles, IL", major: "Computer Engineering", username: "suvarna1" },
+  { name: "Anuj Suvarna", hometown: "St. Charles, IL", major: "Computer Engineering", username: "suvarna1", link:"https://www.triangle.org/" },
   { name: "Vincent Donovan Hammer", hometown: "Noblesville, IN", major: "Optical Engineering", username: "hammervd" },
   { name: "Junki Lee", hometown: "Montrose, CA", major: "Computer Engineering", username: "leej25" },
+  { name: "Tristan Colt Wischmeier", hometown: "Excelsior, MN", major: "Chemical Engineering", username: "wischmtc"},
+  { name: "Alexander Gordon Herzog", hometown: "Elwood, IL", major: "Computer Engineering", username: "herzogag"},
 ];
+
+var freshman = [
+  { name: "Joshua Wai Kit Jue", hometown: "San Francisco, CA", major: "Computer Science", username: "juejw"},
+  { name: "Noah Robert Gerschutz", hometown: "Carey, OH", major: "Civil Engineering", username: "gerschnr"},
+  { name: "Ryan Matthew Burch", hometown: "Brownsburg, IN", major: "Mechanical Engineering", username: "burchrm"},
+  { name: "Devin Lorenzo Bibb", hometown: "Washington DC", major: "Computer Science", username: "bibbdl"},
+  { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej"},
+  { name: "Praanav Ravi Lodha", hometown: "Bombay, India", major: "Mechnanical Engineering", username: "lodhapr"},
+  { name: "Jake Richard Vincent", hometown: "Valparaiso, IN", major: "Mechanical Engineering", username: "vincenjr"},
+  { name: "Kyle Benjamin Broeker", hometown: "Newburgh, IN", major: "Mechanical Engineering", username: "broekekb"},
+  { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec"},
+  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "blytheal"},
+]
 
 
 
@@ -59,8 +75,10 @@ function getBrotherCard(brother){
       <div class="card-panel z-depth-1">
         <div class="row valign-wrapper no-margin">
           <div class="col s3">
+         
             <img id="${brother.username}" src="img/portraits/${brother.username}.jpg" alt="" class="circle responsive-img valign">
-          </div>
+          
+            </div>
           <div class="col s9">
             <h5 class="no-top-margin"><strong>${brother.name}</strong></h5>
             <h6 class="no-margin">${brother.hometown}</h6>
@@ -134,3 +152,4 @@ if (freshman != null && freshman.length != 0) {
 
 // Tenn ball
 //$("#barrnp").hover( () => $("#barrnp").attr("src","img/portraits/BarrTennisBall.jpg"), () => $("#barrnp").attr("src","img/portraits/barrnp.jpg"));
+//$("allenvj").onclick( () => $("allenvj").attr("href","https://www.rosepikes.com/"), () => $("allenvj").attr("src","img/portraits/allenvj.jpg"))
