@@ -151,5 +151,22 @@ if (freshman != null && freshman.length != 0) {
 }
 
 // Tenn ball
-//$("#barrnp").hover( () => $("#barrnp").attr("src","img/portraits/BarrTennisBall.jpg"), () => $("#barrnp").attr("src","img/portraits/barrnp.jpg"));
-//$("allenvj").onclick( () => $("allenvj").attr("href","https://www.rosepikes.com/"), () => $("allenvj").attr("src","img/portraits/allenvj.jpg"))
+$("#morrisad").hover( () => $("#morrisad").attr("src","img/plz_don't_look/morrisad.PNG"), () => $("#morrisad").attr("src","img/portraits/morrisad.jpg"));
+$("#huygebm").hover( () => $("#huygebm").attr("src","img/plz_don't_look/huygebm.PNG"), () => $("#huygebm").attr("src","img/portraits/huygebm.jpg"));
+$("#johnsom4").hover( () => $("#johnsom4").attr("src","img/plz_don't_look/johnsom4.PNG"), () => $("#johnsom4").attr("src","img/portraits/johnsom4.jpg"));
+$("#allenvj").hover( () => $("#allenvj").attr("src","img/plz_don't_look/allenvj.PNG"), () => $("#allenvj").attr("src","img/portraits/allenvj.jpg"));
+$("#bowmanwb").hover( () => $("#bowmanwb").attr("src","img/plz_don't_look/bowmanwb.PNG"), () => $("#bowmanwb").attr("src","img/portraits/bowmanwb.jpg"));
+$("#chois3").hover( () => $("#chois3").attr("src","img/plz_don't_look/chois3.PNG"), () => $("#chois3").attr("src","img/portraits/chois3.jpg"));
+$("#chungy").hover( () => $("#chungy").attr("src","img/plz_don't_look/chungy.PNG"), () => $("#chungy").attr("src","img/portraits/chungy.jpg"));
+$("#crabtrbm").hover( () => $("#crabtrbm").attr("src","img/plz_don't_look/crabtrbm.PNG"), () => $("#crabtrbm").attr("src","img/portraits/crabtrbm.jpg"));
+$("#jochhejm").hover( () => $("#jochhejm").attr("src","img/plz_don't_look/jochhejm.PNG"), () => $("#jochhejm").attr("src","img/portraits/jochhejm.jpg"));
+$("#johnsose").hover( () => $("#johnsose").attr("src","img/plz_don't_look/johnsose.PNG"), () => $("#johnsose").attr("src","img/portraits/johnsose.jpg"));
+$("#mitterj").hover( () => $("#mitterj").attr("src","img/plz_don't_look/mitterj.PNG"), () => $("#mitterj").attr("src","img/portraits/mitterj.jpg"));
+$("#morrisc1").hover( () => $("#morrisc1").attr("src","img/plz_don't_look/morrisc1.PNG"), () => $("#morrisc1").attr("src","img/portraits/morrisc1.jpg"));
+$("#quistcf").hover( () => $("#quistcf").attr("src","img/plz_don't_look/quistcf.PNG"), () => $("#quistcf").attr("src","img/portraits/quistcf.jpg"));
+$("#rakerjp").hover( () => $("#rakerjp").attr("src","img/plz_don't_look/rakerjp.PNG"), () => $("#rakerjp").attr("src","img/portraits/rakerjp.jpg"));
+$("#reidmd").hover( () => $("#reidmd").attr("src","img/plz_don't_look/reidmd.PNG"), () => $("#reidmd").attr("src","img/portraits/reidmd.jpg"));
+$("#wendella").hover( () => $("#wendella").attr("src","img/plz_don't_look/wendella.PNG"), () => $("#wendella").attr("src","img/portraits/wendella.jpg"));
+$("#whetteed").hover( () => $("#whetteed").attr("src","img/plz_don't_look/whetteed.PNG"), () => $("#whetteed").attr("src","img/portraits/whetteed.jpg"));
+$("#purdydj").hover( () => $("#purdydj").attr("src","img/plz_don't_look/purdydj.PNG"), () => $("#purdydj").attr("src","img/portraits/purdydj.jpg"));
+$("#drongeb").hover( () => $("#drongeb").attr("src","img/plz_don't_look/drongeb.PNG"), () => $("#drongeb").attr("src","img/portraits/drongeb.jpg"));
