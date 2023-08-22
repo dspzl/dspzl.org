@@ -3,11 +3,11 @@
     -Add links to the hare in the header
 */
 const greek_letters = "&#916;&#931;&#934; &#918;&#923;";
-const president = "crabtrbm";
-const vp = "allenvj";
-const rushdick = "chois3";
-const webmaster = "purdydj";
-const presidentPhoneNumber = "(317)-285-8686";
+const president = "egorovn";
+const vp = "hammervd";
+const rushdick = "jancad";
+const webmaster = "juejw";
+const presidentPhoneNumber = "(317)-306-1935";
 
 const pageList = `
   <li><a href="/">Home</a></li>
@@ -17,6 +17,7 @@ const pageList = `
   <li><a href="history.html">History</a></li>
   <li><a href="brotherhood.html">Brotherhood</a></li>
   <li><a href="dogs.html">Dogs</a></li>
+  <li><a href="composites.html">Composites</a></li>
 `;
 
 const hareList = `
