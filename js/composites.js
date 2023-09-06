@@ -1,7 +1,9 @@
 var currentYear = 2023;
-var foundingYear = 1985;
+var foundingYear = 1981;
 var foundingDecade = 1980;
 var currentDecade = 2020;
+var test1 = 2022;
+var test2 = 2023
 
 function getCompositeCard(year){
     return `
@@ -18,56 +20,73 @@ function getCompositeCard(year){
     `
 }
 
-function buildContainer(year, decade) {
+function buildModal(year) {
     var html = "";
-    html += `<div id="test_row">
-    <div id="col"`
-    var year = 2022;
-    for (var i = 2020; i < 2022; i++){
-        html += `<img id="${year}" class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >`
-        buildModal(year);
+    html += `  
+    <div id=${year}_modal class="modal">
+    
+    <span class="close" onclick="closeModal('${year}_modal')">&times;</span>
+    
+    <img class="modal-content" id="${year}_img">
+    
+    </div>`
+    $("#modal_container").append(html);
+}
+
+function buildContainer(decade) {
+    var html = "";
+    html += `<div id="test_row">`
+    var nextDecade = decade + 9;
+    if (decade < foundingYear){
+        decade = foundingYear;
+    }
+    if (nextDecade > currentYear){
+        nextDecade = currentYear - 1
+    }
+    for (var i = decade; i < nextDecade+1; i++){
+    // for (var i = nextDecade; i > decade-1; i--){
+        var next = i+1;
+        html += `
+        <div class="col_comp">
+            <img id="${i}-${next}" class="composite" src="img/composites/${i}-${next}.jpg" onclick="openModal('${i}_modal', '${i}-${next}', '${i}_img')" alt="${i}-${next}" >
+            <p class="year_text">${i} - ${next}</p>
+        </div>
+        `
+        buildModal(i, next);
     }
     html += `</div>`
     return html;
 }
 
-function buildModal(year) {
-    var html = "";
-    html += `  
-    <div id=${year}_modal class="modal">
-  
-    <span class="close" onclick="closeModal('${year}_modal')">&times;</span>
-  
-    <img class="modal-content" id="${year}_img">
-  
-  </div>`
-  $("#modal_container").append(html);
-}
-
 function buildSection(decade) {
-    var next = decade + 9;
+    var nextDecade = decade + 9;
     var html = "";
+    var container = buildContainer(decade);
+    if (decade < foundingYear){
+        decade = foundingYear;
+    }
+    if (nextDecade > currentYear){
+        nextDecade = currentYear
+    }
     html += `
         <div id="${decade}">
-            <h1 class="composite_head">${decade}-${next}</h2>
+            <h1 class="composite_head">${decade}-${nextDecade}</h2>
             <div id="${decade}-container">
     `;
-    html += buildContainer()
+    html += container
     html += ` </div>
     </div>`
-    console.log(decade);
     $("#composite_container").append(html);
 }
 
 function buildPage() {
     var year = foundingDecade;
-    for (var i = 0; i < (currentDecade - foundingDecade) / 10 + 1; i++){
-        buildSection(year);
-        year += 10;
+    for (var i = currentDecade; i > (foundingDecade)-10; i -= 10) {
+        buildSection(i)
     }
 }
 
-//buildPage();
+buildPage();
 
 
 function openModal(id, img_id, modal_img) {
