@@ -335,7 +335,30 @@ html[xmlns] .clearfix {
   .modal-content {
       width: 100%;
   }
+  .row .col.s3 {
+    width: 40%;
+    margin-left: 0;
+ }
+
+ .row .col.s9 {
+  width: 60%;
+  margin-left: 0;
 }
+
+ h5 {
+  font-size: 125%;
+  line-height: 105%;
+  margin: 0.82rem 0 0.656rem 0;
+}
+
+h6 {
+  font-size: 100%;
+  line-height: 100%;
+  margin: 0.5rem 0 0.4rem 0;
+}
+}
+
+
 
 #current {
   width: 75%;
