@@ -156,3 +156,7 @@ $("#wendella").hover( () => $("#wendella").attr("src","img/plz_don't_look/wendel
 $("#whetteed").hover( () => $("#whetteed").attr("src","img/plz_don't_look/whetteed.PNG"), () => $("#whetteed").attr("src","img/portraits/whetteed.jpg"));
 $("#purdydj").hover( () => $("#purdydj").attr("src","img/plz_don't_look/purdydj.PNG"), () => $("#purdydj").attr("src","img/portraits/purdydj.jpg"));
 $("#drongeb").hover( () => $("#drongeb").attr("src","img/plz_don't_look/drongeb.PNG"), () => $("#drongeb").attr("src","img/portraits/drongeb.jpg"));
+
+$("#sweenyj").hover( () => $("#sweenyj").attr("src","img/plz_don't_look/sweenyj.PNG"), () => $("#sweenyj").attr("src","img/portraits/sweenyj.jpg"));
+$("#marshja").hover( () => $("#marshja").attr("src","img/plz_don't_look/marshja.PNG"), () => $("#marshja").attr("src","img/portraits/marshja.jpg"));
+$("#smithbk").hover( () => $("#smithbk").attr("src","img/plz_don't_look/smithbk.PNG"), () => $("#smithbk").attr("src","img/portraits/smithbk.jpg"));

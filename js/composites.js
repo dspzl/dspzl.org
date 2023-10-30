@@ -2,8 +2,6 @@ var currentYear = 2023;
 var foundingYear = 1981;
 var foundingDecade = 1980;
 var currentDecade = 2020;
-var test1 = 2022;
-var test2 = 2023
 
 function getCompositeCard(year){
     return `
