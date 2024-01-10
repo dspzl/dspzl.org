@@ -416,10 +416,17 @@ h6 {
 .rush_calendar_container {
   display: flex;
   /* justify-content: center; */
-  justify-content: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .porch{
   width: auto;
+}
+
+.spring_rush{
+  justify-content: center;
+  width: 50%;
+  height: auto;
 }
 
