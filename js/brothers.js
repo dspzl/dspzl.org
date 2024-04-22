@@ -21,7 +21,7 @@ var juniors = [
   { name: "Alexander Gordon Herzog", hometown: "Elwood, IL", major: "Computer Engineering", username: "herzogag"},
   { name: "Aidan Donald Janc", hometown: "Chicago, IL", major: "Computer Science", username: "jancad" },
   { name: "Drew Ryan Kilner", hometown: "Louisville, KY", major: "Computer Engineering", username: "kilnerdr" },
-  { name: "Junki Lee", hometown: "Montrose, CA", major: "Computer Engineering", username: "leej25" },
+  { name: "Junki Lee", hometown: "Montrose, CA", major: "Computer Science", username: "leej25" },
   { name: "Andrew Dietrich Nichols", hometown: "Houston, TX", major: "Mechanical Engineering", username: "nicolad" },
   { name: "Nathan Rupert Pratt", hometown: "Hopewell, NJ", major: "Eng. Physics", username: "prattnr" },
   { name: "Apollo Jackson Picot", hometown: "Rockton, IL", major: "Mechanical Engineering", username: "picotaj" },
@@ -50,6 +50,14 @@ var sophomores = [
 ];
 
 var freshman = [
+  { name: "Philip Scott Bernauer", hometown: "Inianapolis, IN", major: "Chemical Engineering", username: "bernaups"},
+  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "choys"},
+  { name: "Cale Everroad", hometown: "Mount Gilead", major: "Mechanical Engineering", username: "everrocd"},
+  { name: "Caleb John Heldman", hometown: "Brownsburg, IN", major: "Biomedical Engineering", username: "heldmacj"},
+  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "landiscs"},
+  { name: "Zander Tamez", hometown: "Monee, IL", major: "Mechanical Engineering", username: "tamezzm"},
+  { name: "John Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb"},
+  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "winstoe"},
 ]
 
 
@@ -62,8 +70,7 @@ function getBrotherCard(brother){
         <div class="row valign-wrapper no-margin">
           <div class="col s3">
          
-            <img id="${brother.username}" src="img/portraits/${brother.username}.jpg" alt="" class="circle responsive-img valign">
-          
+            <img id="${brother.username}" src="img/portraits/barkerrw.jpg" alt="" class="circle responsive-img valign">
             </div>
           <div class="col s9">
             <h5 class="no-top-margin"><strong>${brother.name}</strong></h5>
@@ -77,6 +84,29 @@ function getBrotherCard(brother){
   `;
 }
 
+
+// function getBrotherCard(brother){
+//   var email = brother.username + '@rose-hulman.edu';
+//   return `
+//     <div class="col l6">
+//       <div class="card-panel z-depth-1">
+//         <div class="row valign-wrapper no-margin">
+//           <div class="col s3">
+         
+//             <img id="${brother.username}" src="img/portraits/${brother.username}.jpg" alt="" class="circle responsive-img valign">
+//             <img id="${brother.username}" src="img/portraits/barkerrw.jpg" alt="" class="circle responsive-img valign">
+//             </div>
+//           <div class="col s9">
+//             <h5 class="no-top-margin"><strong>${brother.name}</strong></h5>
+//             <h6 class="no-margin">${brother.hometown}</h6>
+//             <h6>${brother.major}</h6>
+//             <a href="mailto:${email}" class="no-margin green-text text-darken-3">${email}</a>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   `;
+// }
 // For 1 brother card
 function buildContainer(brotherList, selector){
   var html = "";
@@ -137,14 +167,7 @@ if (freshman != null && freshman.length != 0) {
 }
 
 // Tenn ball
-$("#morrisad").hover( () => $("#morrisad").attr("src","img/plz_don't_look/morrisad.PNG"), () => $("#morrisad").attr("src","img/portraits/morrisad.jpg"));
-$("#huygebm").hover( () => $("#huygebm").attr("src","img/plz_don't_look/huygebm.PNG"), () => $("#huygebm").attr("src","img/portraits/huygebm.jpg"));
-$("#johnsom4").hover( () => $("#johnsom4").attr("src","img/plz_don't_look/johnsom4.PNG"), () => $("#johnsom4").attr("src","img/portraits/johnsom4.jpg"));
-$("#allenvj").hover( () => $("#allenvj").attr("src","img/plz_don't_look/allenvj.PNG"), () => $("#allenvj").attr("src","img/portraits/allenvj.jpg"));
-$("#bowmanwb").hover( () => $("#bowmanwb").attr("src","img/plz_don't_look/bowmanwb.PNG"), () => $("#bowmanwb").attr("src","img/portraits/bowmanwb.jpg"));
-$("#chois3").hover( () => $("#chois3").attr("src","img/plz_don't_look/chois3.PNG"), () => $("#chois3").attr("src","img/portraits/chois3.jpg"));
-$("#chungy").hover( () => $("#chungy").attr("src","img/plz_don't_look/chungy.PNG"), () => $("#chungy").attr("src","img/portraits/chungy.jpg"));
-$("#crabtrbm").hover( () => $("#crabtrbm").attr("src","img/plz_don't_look/crabtrbm.PNG"), () => $("#crabtrbm").attr("src","img/portraits/crabtrbm.jpg"));
+
 $("#jochhejm").hover( () => $("#jochhejm").attr("src","img/plz_don't_look/jochhejm.PNG"), () => $("#jochhejm").attr("src","img/portraits/jochhejm.jpg"));
 $("#johnsose").hover( () => $("#johnsose").attr("src","img/plz_don't_look/johnsose.PNG"), () => $("#johnsose").attr("src","img/portraits/johnsose.jpg"));
 $("#mitterj").hover( () => $("#mitterj").attr("src","img/plz_don't_look/mitterj.PNG"), () => $("#mitterj").attr("src","img/portraits/mitterj.jpg"));
@@ -162,3 +185,12 @@ $("#sturgeaj").hover( () => $("#sturgeaj").attr("src","img/plz_don't_look/sturge
 $("#sweenyj").hover( () => $("#sweenyj").attr("src","img/plz_don't_look/sweenyj.PNG"), () => $("#sweenyj").attr("src","img/portraits/sweenyj.jpg"));
 $("#marshja").hover( () => $("#marshja").attr("src","img/plz_don't_look/marshja.PNG"), () => $("#marshja").attr("src","img/portraits/marshja.jpg"));
 $("#smithbk").hover( () => $("#smithbk").attr("src","img/plz_don't_look/smithbk.PNG"), () => $("#smithbk").attr("src","img/portraits/smithbk.jpg"));
+
+$("#bernaups").hover( () => $("#bernaups").attr("src","img/plz_don't_look/bernaups.PNG"), () => $("#bernaups").attr("src","img/portraits/bernaups.jpg"));
+$("#choys").hover( () => $("#choys").attr("src","img/plz_don't_look/choys.PNG"), () => $("#choys").attr("src","img/portraits/choys.jpg"));
+$("#everrocd").hover( () => $("#everrocd").attr("src","img/plz_don't_look/everrocd.PNG"), () => $("#everrocd").attr("src","img/portraits/everrocd.jpg"));
+$("#heldmacj").hover( () => $("#heldmacj").attr("src","img/plz_don't_look/heldmacj.PNG"), () => $("#heldmacj").attr("src","img/portraits/heldmacj.jpg"));
+$("#landiscs").hover( () => $("#landiscs").attr("src","img/plz_don't_look/landiscs.PNG"), () => $("#landiscs").attr("src","img/portraits/landiscs.jpg"));
+$("#tamezzm").hover( () => $("#tamezzm").attr("src","img/plz_don't_look/tamezzm.PNG"), () => $("#tamezzm").attr("src","img/portraits/tamezzm.jpg"));
+$("#webbjb").hover( () => $("#webbjb").attr("src","img/plz_don't_look/webbjb.PNG"), () => $("#webbjb").attr("src","img/portraits/webbjb.jpg"));
+$("#winstoe").hover( () => $("#winstoe").attr("src","img/plz_don't_look/winstoe.PNG"), () => $("#winstoe").attr("src","img/portraits/winstoe.jpg"));
