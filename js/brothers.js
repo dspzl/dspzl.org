@@ -51,7 +51,7 @@ var sophomores = [
 
 var freshman = [
   { name: "Philip Scott Bernauer", hometown: "Inianapolis, IN", major: "Chemical Engineering", username: "bernaups"},
-  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "choys"},
+  { name: "Sebastian Thomas Choy", hometown: "Weehawken, NJ", major: "Mechanical Engineering", username: "choys"},
   { name: "Cale Everroad", hometown: "Mount Gilead", major: "Mechanical Engineering", username: "everrocd"},
   { name: "Caleb John Heldman", hometown: "Brownsburg, IN", major: "Biomedical Engineering", username: "heldmacj"},
   { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "landiscs"},
@@ -59,7 +59,6 @@ var freshman = [
   { name: "John Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb"},
   { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "winstoe"},
 ]
-
 
 
 function getBrotherCard(brother){
@@ -70,7 +69,7 @@ function getBrotherCard(brother){
         <div class="row valign-wrapper no-margin">
           <div class="col s3">
          
-            <img id="${brother.username}" src="img/portraits/barkerrw.jpg" alt="" class="circle responsive-img valign">
+            <img id="${brother.username}" src="img/portraits/${brother.username}.jpg" alt="" class="circle responsive-img valign">
             </div>
           <div class="col s9">
             <h5 class="no-top-margin"><strong>${brother.name}</strong></h5>
@@ -83,30 +82,6 @@ function getBrotherCard(brother){
     </div>
   `;
 }
-
-
-// function getBrotherCard(brother){
-//   var email = brother.username + '@rose-hulman.edu';
-//   return `
-//     <div class="col l6">
-//       <div class="card-panel z-depth-1">
-//         <div class="row valign-wrapper no-margin">
-//           <div class="col s3">
-         
-//             <img id="${brother.username}" src="img/portraits/${brother.username}.jpg" alt="" class="circle responsive-img valign">
-//             <img id="${brother.username}" src="img/portraits/barkerrw.jpg" alt="" class="circle responsive-img valign">
-//             </div>
-//           <div class="col s9">
-//             <h5 class="no-top-margin"><strong>${brother.name}</strong></h5>
-//             <h6 class="no-margin">${brother.hometown}</h6>
-//             <h6>${brother.major}</h6>
-//             <a href="mailto:${email}" class="no-margin green-text text-darken-3">${email}</a>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   `;
-// }
 // For 1 brother card
 function buildContainer(brotherList, selector){
   var html = "";
