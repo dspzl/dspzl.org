@@ -1,8 +1,8 @@
 var dogs = [
-            { name: "Nikita Romanovich Egorov", hometown: "Fishers, IN", talent: "Talent: Anti-Brother of the week", owner: "&#916;&#931;&#934; &#918;&#923;", username: "egorovn"},
+            //{ name: "Nikita Romanovich Egorov", hometown: "Fishers, IN", talent: "Talent: Anti-Brother of the week", owner: "&#916;&#931;&#934; &#918;&#923;", username: "egorovn"},
             { name: "Murphy", hometown: "Bombay, India", talent: "Talent: Snoozing", owner: "Brother Praanav Lodha", username: "murphy"},
             { name: "Dredgen", hometown: "West Lafayette, IN", talent: "Talent: Mouse Removal Specialist", owner: "Brother Aidan Sturgeon", username: "dredgen"},
-            { name: "Vincent Donovan Hammer", hometown: "Noblesville, IN", talent: "Talent: Carrying Things", owner: "&#916;&#931;&#934; &#918;&#923;", username: "hammer"}
+            //{ name: "Vincent Donovan Hammer", hometown: "Noblesville, IN", talent: "Talent: Carrying Things", owner: "&#916;&#931;&#934; &#918;&#923;", username: "hammer"}
 ];
 
 function getDogsCard(dog){
