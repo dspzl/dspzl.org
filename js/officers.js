@@ -1,33 +1,33 @@
 var elected = [
-    { position: 'President', name: "Nikita Romanovich Egorov", username:"egorovn" },
-    { position: 'Vice President', name: "Vincent Donovan Hammer", username: "hammervd" },
-    { position: 'Tresurer', name: "Ian Henry Stedham", username: "stedhai" },
-    { position: 'Steward', name: "Nathan Rupert Pratt", username:"prattnr" },
-    { position: 'House Director', name: "Jameson Michael Jochheim", username:"jochhejm" },
-    { position: 'Secretary', name:"Zachary ZheYing Cao", username:"caozz" },
-    { position: 'Philanthropy Director', name: "Ian 'Earl' Christopher Resnik", username:"resnikic"},
-    { position: 'Sergeant-at-Arms', name:'Adam Steven Deckard', username:"deckaras" },
-    { position: 'Rush Director', name: "Aidan Donald Janc", username:"jancad" },
-    { position: 'Rush Director', name: "Noah Robert Gerschutz", username:"gerschnr"},
-    { position: 'Social Director', name: "Joshua Quinn Shrock", username:"shrocjq"},
+    { position: 'President', name: "Zachary ZheYing Cao", username:"caozz" },
+    { position: 'Vice President', name: "Apollo Jackson Picot", username: "picotaj" },
+    { position: 'Tresurer', name: "Asher Lennon Blythe", username: "blytheal" },
+    { position: 'Steward', name: "Noah Robert Gerschutz", username:"gerschnr" },
+    { position: 'House Director', name: "Jake Richard Vincent", username:"jochhejm" },
+    { position: 'Secretary', name:"John Bentley Webb", username:"webbjb" },
+    { position: 'Philanthropy Director', name: "James 'Zeno' Day", username:"dayjz"},
+    { position: 'Sergeant-at-Arms', name:'Tristan Colt Wischmeier', username:"wischmtc" },
+    { position: 'Rush Director', name: "Vincent Donovan Hammer", username:"hammervd" },
+    { position: 'Rush Director', name: "Nathan Rupert Pratt", username:"prattnr"},
+    { position: 'Social Director', name: "Drew Ryan Kilner", username:"shrocjq"},
     { position: 'Bid Selection Committee Chairman', name: "Matthew Li Hart", username:"hartml"},
-    { position: 'New Member Educator', name: "Mason Darrell Reid", username:"reidmd" }
+    { position: 'New Member Educator', name: "Adam Steven Deckard", username:"deckaras" }
 ];
 
 var appointed = [
-    { position:'Activities Director', name:'Braxton Micheal Gabbard', username:"gabarbm" },
+    { position:'Activities Director', name:'Alexander Gordon Herzog', username:"herzogag" },
     { position: 'Athletics Director', name: "Ethan James Parsons", username:"parsonej" },
-    { position: 'Interfraternity Council Representative', name:'Adam Steven Deckard', username:"deckaras" },
-    { position: 'Interfraternity Council Representative', name: "Asher Lennon Blythe", username:"blytheal" },
+    { position: 'Interfraternity Council Representative', name:'Kyle Benjamin Broeker', username:"broekekb" },
+    { position: 'Interfraternity Council Representative', name: "Cale David Everroad", username:"everrocd" },
     { position: 'Public Relations Director', name: "Ethan Conner Minckler", username:"mincklec" },
     { position: 'Alumni Director', name:"Zachary ZheYing Cao", username:"caozz" },
-    { position: 'Chaplain', name: "Carl Frederick Quist", username:"quistcf" },
-    { position: 'Editor', name: "Apollo Jackson Picot", username:"picotaj" },
+    { position: 'Chaplain', name: "Ian Henry Stedham", username:"stedhai" },
+    { position: 'Editor', name: "Ryan Matthew Burch", username:"burchrm" },
     { position: 'Historian', name: "Nikita Romanovich Egorov", username:"egorovn" },
-    { position: 'Technology Director', name: "Aidan Jeffery Sturgeon", username:"sturgeaj" },
+    { position: 'Technology Director', name: "Jeremiah Sweeny", username:"sweenyj" },
     { position: 'Webmaster', name: "Joshua Wai Kit Jue", username:"juejw" },
-    { position: 'Student Government Association Representative', name: "Jake Richard Vincent", username:"vincenjr" },
-    { position: 'Song Leader', name: "Andrew Dietrich Nichols", username: "nicolad" },
+    { position: 'Student Government Association Representative', name: "Zander Matthew Tamez", username:"tamezzm" },
+    { position: 'Song Leader', name: "Charlie Stephen Landis", username: "landiscs" },
 ];
 
 var advisors = [

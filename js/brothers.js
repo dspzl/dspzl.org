@@ -23,8 +23,8 @@ var juniors = [
   { name: "Drew Ryan Kilner", hometown: "Louisville, KY", major: "Computer Engineering", username: "kilnerdr" },
   { name: "Junki Lee", hometown: "Montrose, CA", major: "Computer Science", username: "leej25" },
   { name: "Andrew Dietrich Nichols", hometown: "Houston, TX", major: "Mechanical Engineering", username: "nicolad" },
-  { name: "Nathan Rupert Pratt", hometown: "Hopewell, NJ", major: "Eng. Physics", username: "prattnr" },
   { name: "Apollo Jackson Picot", hometown: "Rockton, IL", major: "Mechanical Engineering", username: "picotaj" },
+  { name: "Nathan Rupert Pratt", hometown: "Hopewell, NJ", major: "Eng. Physics", username: "prattnr" },
   { name: "Ian 'Earl' Christopher Resnik", hometown: "Pittsburgh, PA", major: "Mechanical Engineering", username: "resnikic" },
   { name: "Joshua Quinn Shrock", hometown: "Goshen, IN", major: "Computer Engineering", username: "shrocjq" },
   { name: "Brody Keaton Smith", hometown: "Talbott, TN", major: "Computer Science", username: "smithbk" },
@@ -52,12 +52,12 @@ var sophomores = [
 var freshman = [
   { name: "Philip Scott Bernauer", hometown: "Inianapolis, IN", major: "Chemical Engineering", username: "bernaups"},
   { name: "Sebastian Thomas Choy", hometown: "Weehawken, NJ", major: "Mechanical Engineering", username: "choys"},
-  { name: "Cale Everroad", hometown: "Mount Gilead", major: "Mechanical Engineering", username: "everrocd"},
+  { name: "Cale David Everroad", hometown: "Mount Gilead, OH", major: "Mechanical Engineering", username: "everrocd"},
   { name: "Caleb John Heldman", hometown: "Brownsburg, IN", major: "Biomedical Engineering", username: "heldmacj"},
-  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "landiscs"},
-  { name: "Zander Tamez", hometown: "Monee, IL", major: "Mechanical Engineering", username: "tamezzm"},
-  { name: "John Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb"},
-  { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "winstoe"},
+  { name: "Charlie Stephen Landis", hometown: "Kensington, MD", major: "Electrical Engineering", username: "landiscs"},
+  { name: "Zander Matthew Tamez", hometown: "Monee, IL", major: "Mechanical Engineering", username: "tamezzm"},
+  { name: "John Bentley Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb"},
+  { name: "Eric Winston", hometown: "Arlington, VA", major: "Mechanical Engineering", username: "winstoe"},
 ]
 
 
@@ -72,7 +72,7 @@ function getBrotherCard(brother){
             <img id="${brother.username}" src="img/portraits/${brother.username}.jpg" alt="" class="circle responsive-img valign">
             </div>
           <div class="col s9">
-            <h5 class="no-top-margin"><strong>${brother.name}</strong></h5>
+            <h5 id="${brother.username}_name" class="no-top-margin"><strong>${brother.name}</strong></h5>
             <h6 class="no-margin">${brother.hometown}</h6>
             <h6>${brother.major}</h6>
             <a href="mailto:${email}" class="no-margin green-text text-darken-3">${email}</a>
@@ -169,3 +169,6 @@ $("#landiscs").hover( () => $("#landiscs").attr("src","img/plz_don't_look/landis
 $("#tamezzm").hover( () => $("#tamezzm").attr("src","img/plz_don't_look/tamezzm.PNG"), () => $("#tamezzm").attr("src","img/portraits/tamezzm.jpg"));
 $("#webbjb").hover( () => $("#webbjb").attr("src","img/plz_don't_look/webbjb.PNG"), () => $("#webbjb").attr("src","img/portraits/webbjb.jpg"));
 $("#winstoe").hover( () => $("#winstoe").attr("src","img/plz_don't_look/winstoe.PNG"), () => $("#winstoe").attr("src","img/portraits/winstoe.jpg"));
+
+// $("#bibbdl").hover( () => $("#bibbdl_name").innerHTML = "testing", () => $("#bibbdl_name").innerHTML = "Devin Lorenzo Bibb");
+$("#bibbdl_name").hover( console.log("test"));
