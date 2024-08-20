@@ -3,7 +3,7 @@ var elected = [
     { position: 'Vice President', name: "Apollo Jackson Picot", username: "picotaj" },
     { position: 'Tresurer', name: "Asher Lennon Blythe", username: "blytheal" },
     { position: 'Steward', name: "Noah Robert Gerschutz", username:"gerschnr" },
-    { position: 'House Director', name: "Jake Richard Vincent", username:"jochhejm" },
+    { position: 'House Director', name: "Jake Richard Vincent", username:"vincenjr" },
     { position: 'Secretary', name:"John Bentley Webb", username:"webbjb" },
     { position: 'Philanthropy Director', name: "James 'Zeno' Day", username:"dayjz"},
     { position: 'Sergeant-at-Arms', name:'Tristan Colt Wischmeier', username:"wischmtc" },
