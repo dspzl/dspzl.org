@@ -1,7 +1,7 @@
 var elected = [
     { position: 'President', name: "Zachary ZheYing Cao", username:"caozz" },
     { position: 'Vice President', name: "Apollo Jackson Picot", username: "picotaj" },
-    { position: 'Tresurer', name: "Asher Lennon Blythe", username: "blytheal" },
+    { position: 'Treasurer', name: "Asher Lennon Blythe", username: "blytheal" },
     { position: 'Steward', name: "Noah Robert Gerschutz", username:"gerschnr" },
     { position: 'House Director', name: "Jake Richard Vincent", username:"vincenjr"},
     { position: 'Secretary', name:"John Bentley Webb", username:"webbjb" },

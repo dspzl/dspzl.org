@@ -31,7 +31,7 @@ var juniors = [
   { name: "Ian Henry Stedham", hometown: "Columbia, MD", major: "Computer Science", username: "stedhai" },
   { name: "Anuj Suvarna", hometown: "St. Charles, IL", major: "Computer Engineering", username: "suvarna1"},
   { name: "Tristan Colt Wischmeier", hometown: "Excelsior, MN", major: "Chemical Engineering", username: "wischmtc"},
-  { name: "Ziyu 'Leonardo' Xie", hometown: "Chengdu City, China", major: "Computer Engineering", username: "xiez6" },
+  { name: "Ziyu 'Leonardo' Xie", hometown: "Chengdu, China", major: "Computer Engineering", username: "xiez6" },
 ];
 
 var sophomores = [
@@ -45,7 +45,7 @@ var sophomores = [
   { name: "Jacob Alexander Marsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec"},
   { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej"},
-  { name: "Jeremiah 'Mc'Sweeny 'with no Mc'", hometown: "Indianapolis, IN", major: "Mechanical Engineer", username: "sweenyj" },
+  { name: "Jeremiah 'Mc'Sweeny 'with no Mc'", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "sweenyj" },
   { name: "Jake Richard Vincent", hometown: "Valparaiso, IN", major: "Mechanical Engineering", username: "vincenjr"},
 ];
 
@@ -53,7 +53,7 @@ var freshman = [
   { name: "Philip Scott Bernauer", hometown: "Inianapolis, IN", major: "Chemical Engineering", username: "bernaups"},
   { name: "Sebastian Thomas Choy", hometown: "Weehawken, NJ", major: "Mechanical Engineering", username: "choys"},
   { name: "Cale David Everroad", hometown: "Mount Gilead, OH", major: "Mechanical Engineering", username: "everrocd"},
-  { name: "Caleb John Heldman", hometown: "Brownsburg, IN", major: "Biomedical Engineering", username: "heldmacj"},
+  { name: "Caleb John Heldman", hometown: "Brownsburg, IN", major: "Biomedical Engineeringing", username: "heldmacj"},
   { name: "Charlie Stephen Landis", hometown: "Kensington, MD", major: "Electrical Engineering", username: "landiscs"},
   { name: "Zander Matthew Tamez", hometown: "Monee, IL", major: "Mechanical Engineering", username: "tamezzm"},
   { name: "John Bentley Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb"},
@@ -90,6 +90,7 @@ function buildContainer(brotherList, selector){
     html += getBrotherCard(brotherList[i]);
     if( (i+1) < brotherList.length)
       html += getBrotherCard(brotherList[i+1]);
+    $("#${brotherList[i].username}").hover( () => $("#${brotherList[i].username}").attr("src","img/plz_don't_look/${brotherList[i].username}.PNG"), () => $("#${brotherList[i].username}").attr("src","img/portraits/${brotherList[i].username}.jpg"));
     html += '</div>';
     html += '</div>';
   }

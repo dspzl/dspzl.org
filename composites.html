@@ -29,53 +29,24 @@
         </div>
         <br>
         <br>
-        <div id="composite_container">
-          <!-- <h1 class="composite_head">2010-2019</h1> -->
-          <!-- <div id="test_row">
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div>
-            <div class="col_comp">
-              <img class="composite" src="img/composites/2022-2023.jpg" onclick="openModal('current_modal', 'current', 'img01')" alt="2022-2023" >
-              <p class="year_text">2022-2023</p>
-            </div> -->
-
-          </div>
+        <div id="searching_container">
+          <!-- <div> -->
+            <p>Decade: </p>
+            <input type="number" id="decadeText" class="inputtext" >            
+          <!-- </div>
+          <div> -->
+            <p>Year:</p>
+            <input type="number" id="yearText" class="inputtext">            
+          <!-- </div> -->
+          <button onclick="searchFunction()" id="searchButt">Search</button>
         </div>
+
+        <div id="composite_container">
+
+        </div>
+        <button onclick="loadMore()" id="loadingbutt">Load More</button>
       </div>
+  </div>
 </main>
 
 <div id="modal_container">
