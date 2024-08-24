@@ -90,7 +90,7 @@ function buildContainer(brotherList, selector){
     html += getBrotherCard(brotherList[i]);
     if( (i+1) < brotherList.length)
       html += getBrotherCard(brotherList[i+1]);
-    $("#${brotherList[i].username}").hover( () => $("#${brotherList[i].username}").attr("src","img/plz_don't_look/${brotherList[i].username}.PNG"), () => $("#${brotherList[i].username}").attr("src","img/portraits/${brotherList[i].username}.jpg"));
+    //$("#${brotherList[i].username}").hover( () => $("#${brotherList[i].username}").attr("src","img/plz_don't_look/${brotherList[i].username}.PNG"), () => $("#${brotherList[i].username}").attr("src","img/portraits/${brotherList[i].username}.jpg"));
     html += '</div>';
     html += '</div>';
   }
