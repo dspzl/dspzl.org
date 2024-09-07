@@ -20,7 +20,7 @@ var appointed = [
     { position: 'Interfraternity Council Representative', name:'Kyle Benjamin Broeker', username:"broekekb" },
     { position: 'Interfraternity Council Representative', name: "Cale David Everroad", username:"everrocd" },
     { position: 'Public Relations Director', name: "Ethan Conner Minckler", username:"mincklec" },
-    { position: 'Alumni Director', name:"Zachary ZheYing Cao", username:"caozz" },
+    { position: 'Alumni Director', name:"Nikita Romanovich Egorov", username:"egorovn" },
     { position: 'Chaplain', name: "Ian Henry Stedham", username:"stedhai" },
     { position: 'Editor', name: "Ryan Matthew Burch", username:"burchrm" },
     { position: 'Historian', name: "Nikita Romanovich Egorov", username:"egorovn" },

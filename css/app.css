@@ -234,11 +234,11 @@ html[xmlns] .clearfix {
       width: 100%;
       min-height: 100%;
       background-position: center; }
-  .rush-img{
+  /* .rush-img{
     margin-right: 15px;
     width: 480px;
     height: 400px;
-  }
+  } */
 }
 @media all and (max-width: 480px){
   .parallax-mobile img {
@@ -455,4 +455,16 @@ h6 {
   background-color: white;
   outline: none;
   border: none;
+}
+
+#rush-container{
+  display: flex;
+  justify-content: center;
+}
+
+#rush-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

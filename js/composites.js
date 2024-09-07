@@ -1,4 +1,4 @@
-var currentYear = 2023;
+var currentYear = 2024;
 var foundingYear = 1981;
 var foundingDecade = 1980;
 var currentDecade = 2020;

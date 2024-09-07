@@ -3,9 +3,9 @@
     -Add links to the hare in the header
 */
 const greek_letters = "&#916;&#931;&#934; &#918;&#923;";
-const president = "egorovn";
-const vp = "hammervd";
-const rushdick = "jancad";
+const president = "caozz";
+const vp = "picotaj";
+const rushdick = "prattnr";
 const webmaster = "juejw";
 const presidentPhoneNumber = "(317)-306-1935";
 
