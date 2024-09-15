@@ -9,14 +9,14 @@ var elected = [
     { position: 'Sergeant-at-Arms', name:'Tristan Colt Wischmeier', username:"wischmtc" },
     { position: 'Rush Director', name: "Vincent Donovan Hammer", username:"hammervd" },
     { position: 'Rush Director', name: "Nathan Rupert Pratt", username:"prattnr"},
-    { position: 'Social Director', name: "Drew Ryan Kilner", username:"shrocjq"},
+    { position: 'Social Director', name: "Drew Ryan Kilner", username:"kilnerdr"},
     { position: 'Bid Selection Committee Chairman', name: "Matthew Li Hart", username:"hartml"},
     { position: 'New Member Educator', name: "Adam Steven Deckard", username:"deckaras" }
 ];
 
 var appointed = [
     { position:'Activities Director', name:'Alexander Gordon Herzog', username:"herzogag" },
-    { position: 'Athletics Director', name: "Ethan James Parsons", username:"parsonej" },
+    { position: 'Athletics Director', name: "Vincent Donovan Hammer", username:"hammervd" },
     { position: 'Interfraternity Council Representative', name:'Kyle Benjamin Broeker', username:"broekekb" },
     { position: 'Interfraternity Council Representative', name: "Cale David Everroad", username:"everrocd" },
     { position: 'Public Relations Director', name: "Ethan Conner Minckler", username:"mincklec" },
@@ -24,7 +24,7 @@ var appointed = [
     { position: 'Chaplain', name: "Ian Henry Stedham", username:"stedhai" },
     { position: 'Editor', name: "Ryan Matthew Burch", username:"burchrm" },
     { position: 'Historian', name: "Nikita Romanovich Egorov", username:"egorovn" },
-    { position: 'Technology Director', name: "Jeremiah Sweeny", username:"sweenyj" },
+    { position: 'Technology Director', name: "Drew Ryan Kilner", username:"kilnerdr" },
     { position: 'Webmaster', name: "Joshua Wai Kit Jue", username:"juejw" },
     { position: 'Student Government Association Representative', name: "Zander Matthew Tamez", username:"tamezzm" },
     { position: 'Song Leader', name: "Charlie Stephen Landis", username: "landiscs" },
