@@ -27,7 +27,7 @@ var appointed = [
     { position: 'Technology Director', name: "Drew Ryan Kilner", username:"kilnerdr" },
     { position: 'Webmaster', name: "Joshua Wai Kit Jue", username:"juejw" },
     { position: 'Student Government Association Representative', name: "Zander Matthew Tamez", username:"tamezzm" },
-    { position: 'Song Leader', name: "Charlie Stephen Landis", username: "landiscs" },
+    { position: 'Song Leader', name: "Charlie Stephen Landis", username: "nicolad" },
 ];
 
 var advisors = [
