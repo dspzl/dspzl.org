@@ -36,13 +36,17 @@ var juniors = [
   { name: "Jacob Alexander Marsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec" },
   { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej" },
+  { name: "William Ryan Prusak", hometown: "Naperville, IL", major: "Mechanical Engineering", username: "prusakwr" },
+  { name: "Sean Barrie Rody", hometown: "Frenchtown, MT", major: "Computer Engineering", username: "rodysb" },
+  { name: "William Henry Scholten III", hometown: "Hudsonville, MI", major: "Computer Engineering", username: "scholtwh" },
   { name: "Jeremiah 'Mc'Sweeny 'with no Mc'", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "sweenyj" },
   { name: "Jake Richard Vincent", hometown: "Valparaiso, IN", major: "Mechanical Engineering", username: "vincenjr" },
 ];
 
 var sophomores = [
-  { name: "Philip Scott Bernauer", hometown: "Inianapolis, IN", major: "Chemical Engineering", username: "bernaups" },
+  { name: "Philip Scott Bernauer", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "bernaups" },
   { name: "Sebastian Thomas Choy", hometown: "Weehawken, NJ", major: "Mechanical Engineering", username: "choys" },
+  { name: "Olivier O'Dell Estes", hometown: "Michigan City, IN", major: "Mechanical Engineering", username: "esteso" },
   { name: "Cale David Everroad", hometown: "Mount Gilead, OH", major: "Mechanical Engineering", username: "everrocd" },
   { name: "Caleb John Heldman", hometown: "Brownsburg, IN", major: "Biomedical Engineeringing", username: "heldmacj" },
   { name: "Charlie Stephen Landis", hometown: "Kensington, MD", major: "Electrical Engineering", username: "landiscs" },
@@ -52,7 +56,18 @@ var sophomores = [
 ];
 
 var freshman = [
-]
+  { name: "Cam Ransdell Baylor", hometown: "Lincoln, NE", major: "Mechanical Engineering", username: "baylorcr" },
+  { name: "Alexander Naismith Carpenter", hometown: "Philpot, KT", major: "Biomedical Engineering", username: "carpena1" },
+  { name: "Ryan Hung", hometown: "Irvine, CA", major: "Computer Science", username: "hungra" },
+  { name: "Nate Christopher Nielsen", hometown: "Dallas, TX", major: "Electrical Engineering", username: "nielsenc" },
+  { name: "Charles Joseph Frederick Northrup", hometown: "Warsaw, IN", major: "Computer Science", username: "northrcf" },
+  { name: "Layth Khalil Rahman", hometown: "Lexington, KT", major: "Mechanical Engineering", username: "rahmanlk" },
+  { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" },
+  { name: "Payton Hudson Sprinkle", hometown: "Fort Wayne, IN", major: "Mathematics", username: "sprinkph" },
+  { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineeringing", username: "verkoudc" },
+  { name: "Marcus Joosuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" },
+  { name: "Logan Daniel Fioritos-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
+];
 
 
 function getBrotherCard(brother) {
