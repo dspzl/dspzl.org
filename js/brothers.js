@@ -18,7 +18,7 @@ var seniors = [
   { name: "Nathan Rupert Pratt", hometown: "Hopewell, NJ", major: "Eng. Physics", username: "prattnr" },
   { name: "Ian 'Earl' Christopher Resnik", hometown: "Pittsburgh, PA", major: "Mechanical Engineering", username: "resnikic" },
   { name: "Joshua Quinn Shrock", hometown: "Goshen, IN", major: "Computer Engineering", username: "shrocjq" },
-  { name: "Brody Keaton Smith", hometown: "Temecula, CA", major: "Computer Science", username: "smithbk" },
+  { name: "Brody Keaton Smith", hometown: "Talbott, TN", major: "Computer Science", username: "smithbk" },
   { name: "Ian Henry Stedham", hometown: "Columbia, MD", major: "Computer Science", username: "stedhai" },
   { name: "Anuj Suvarna", hometown: "St. Charles, IL", major: "Computer Engineering", username: "suvarna1" },
   { name: "Tristan Colt Wischmeier", hometown: "Excelsior, MN", major: "Chemical Engineering", username: "wischmtc" },
@@ -52,7 +52,7 @@ var sophomores = [
   { name: "Charlie Stephen Landis", hometown: "Kensington, MD", major: "Electrical Engineering", username: "landiscs" },
   { name: "Zander Matthew Tamez", hometown: "Monee, IL", major: "Mechanical Engineering", username: "tamezzm" },
   { name: "John Bentley Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb" },
-  { name: "Eric Winston", hometown: "Arlington, VA", major: "Mechanical Engineering", username: "winstoe" },
+  { name: "Erik Bintin", hometown: "Arlington, VA", major: "Mechanical Engineering", username: "winstoe" },
 ];
 
 var freshmen = [
