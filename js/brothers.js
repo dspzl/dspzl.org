@@ -64,7 +64,7 @@ var freshmen = [
   { name: "Layth Khalil Rahman", hometown: "Lexington, KY", major: "Software Engineering", username: "rahmanlk" },
   { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" },
   { name: "Payton Hudson Sprinkle", hometown: "Fort Wayne, IN", major: "Mathematics", username: "sprinkph" },
-  { name: "Dane Coopering Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
+  { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
   { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" },
   { name: "Logan Daniel Fiorito-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
 ];
