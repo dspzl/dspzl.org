@@ -67,6 +67,7 @@ var freshmen = [
   { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
   { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" },
   { name: "Logan Daniel Fiorito-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
+  { name: "Brenden James Warren", hometown: "Crawfordsville, Indiana", major: "Mechanical Engineering", username: "warrenbj"},
 ];
 
 
