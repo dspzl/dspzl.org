@@ -1,6 +1,8 @@
 /* Update the brothers list here */
 
 var seniors = [
+  { name: "Long Forgotten", hometown: "Terre Haute", major: "Jobless", username: "" }
+  /*
   { name: "Zachary ZheYing Cao", hometown: "Louisville, KY", major: "Computer Science", username: "caozz" },
   { name: "Damian Ivan Dalic", hometown: "Chicago, IL", major: "Computer Science", username: "dalicdi" },
   { name: "James 'Zeno' Day", hometown: "Lexington, KY", major: "Computer Science", username: "dayjz" },
@@ -23,6 +25,7 @@ var seniors = [
   { name: "Anuj Suvarna", hometown: "St. Charles, IL", major: "Computer Engineering", username: "suvarna1" },
   { name: "Tristan Colt Wischmeier", hometown: "Excelsior, MN", major: "Chemical Engineering", username: "wischmtc" },
   { name: "Ziyu 'Leonardo' Xie", hometown: "Chengdu, China", major: "Computer Engineering", username: "xiez6" },
+   */
 ];
 
 var juniors = [
