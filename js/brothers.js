@@ -7,20 +7,20 @@ var seniors = [
   { name: "Ryan Matthew Burch", hometown: "Brownsburg, IN", major: "Mechanical Engineering", username: "burchrm" },
   { name: "Noah Robert Gerschutz", hometown: "Carey, OH", major: "Civil Engineering", username: "gerschnr" },
   { name: "Joshua Wai Kit Jue", hometown: "San Francisco, CA", major: "Computer Science", username: "juejw" },
-  { name: "Praanav Ravi Lodha", hometown: "Bombay, India", major: "Mechnanical Engineering", username: "lodhapr" },
-  { name: "Jacob Alexander Makrsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
+  { name: "Jacob Alexander Marsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec" },
   { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej" },
   { name: "William Ryan Prusak", hometown: "Naperville, IL", major: "Mechanical Engineering", username: "prusakwr" },
   { name: "Sean Barrie Rody", hometown: "Frenchtown, MT", major: "Computer Engineering", username: "rodysb" },
   { name: "William Henry Scholten III", hometown: "Hudsonville, MI", major: "Computer Engineering", username: "scholtwh" },
-  { name: "Jeremiah 'Mc'Sweeny 'with no Mc'", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "sweenyj" },
+    { name: "Brody Keaton Smith", hometown: "Talbott, TN", major: "Computer Science", username: "smithbk" },
+    { name: "Jeremiah 'Mc'Sweeny 'with no Mc'", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "sweenyj" },
   { name: "Jake Richard Vincent", hometown: "Valparaiso, IN", major: "Mechanical Engineering", username: "vincenjr" },
   { name: "Ian 'Earl' Christopher Resnik", hometown: "Pittsburgh, PA", major: "Mechanical Engineering", username: "resnikic" },
 ];
 
 var juniors = [
-  { name: "Philip Scott Bernauer", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "bernaups" },
+  { name: "Phillip Scott Bernauer", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "bernaups" },
   { name: "Sebastian Thomas Choy", hometown: "Weehawken, NJ", major: "Mechanical Engineering", username: "choys" },
   { name: "Oliver O'Dell Estes", hometown: "Michigan City, IN", major: "Mechanical Engineering", username: "esteso" },
   { name: "Cale David Everroad", hometown: "Mount Gilead, OH", major: "Mechanical Engineering", username: "everrocd" },
@@ -37,7 +37,6 @@ var sophomores = [
   { name: "Ryan Andrew Hung", hometown: "Irvine, CA", major: "Computer Science", username: "hungra" },
   { name: "Nate Christopher Nielsen", hometown: "Dallas, TX", major: "Electrical Engineering", username: "nielsenc" },
   { name: "Charles Joseph Frederick Northrop", hometown: "Warsaw, IN", major: "Computer Science", username: "northrcf" },
-  { name: "Layth Khalil Rahman", hometown: "Lexington, KY", major: "Software Engineering", username: "rahmanlk" },
   { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" },
   { name: "Payton Hudson Sprinkle", hometown: "Fort Wayne, IN", major: "Mathematics", username: "sprinkph" },
   { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
@@ -47,7 +46,7 @@ var sophomores = [
 ];
 
 var freshman = [
-  
+
 ];
 
 
@@ -97,7 +96,7 @@ function buildSection(section) {
     </div>
   </div>
   <div class="parallax-container-mobile">
-    <div class="porch parallax-mobile"><img src="img/brothers/porch-pic-2023-Richard.jpg"></div>
+    <div class="porch parallax-mobile"><img src="img/brothers/porch-pic-2025.jpeg"></div>
   </div>
   `;
   $("#grades").append(html);
@@ -171,7 +170,7 @@ function getHoverUWU() {
     isImageValid("img/plz_don't_look/" + user + ".PNG").then(isValid => {
       if (isValid) {
         $(identity).hover(() => $(identity).attr("src", "img/plz_don't_look/" + user + ".PNG"), () => $(identity).attr("src", "img/portraits/" + user + ".jpg"));
-      } 
+      }
       // else {
       //     console.log('Image is invalid');
       // }
