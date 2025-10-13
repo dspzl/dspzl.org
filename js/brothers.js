@@ -1,13 +1,11 @@
 /* Update the brothers list here */
 
 var seniors = [
-  //{ name: "Devin Lorenzo Bibb", hometown: "Washington DC", major: "Computer Science", username: "bibbdl" },
   { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "blytheal" },
   { name: "Kyle Benjamin Broeker", hometown: "Newburgh, IN", major: "Mechanical Engineering", username: "broekekb" },
   { name: "Ryan Matthew Burch", hometown: "Brownsburg, IN", major: "Mechanical Engineering", username: "burchrm" },
   { name: "Noah Robert Gerschutz", hometown: "Carey, OH", major: "Civil Engineering", username: "gerschnr" },
   { name: "Joshua Wai Kit Jue", hometown: "San Francisco, CA", major: "Computer Science", username: "juejw" },
-  { name: "Praanav Ravi Lodha", hometown: "Bombay, India", major: "Mechnanical Engineering", username: "lodhapr" },
   { name: "Jacob Alexander Makrsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec" },
   { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej" },
@@ -28,7 +26,7 @@ var juniors = [
   { name: "Charlie Stephen Landis", hometown: "Kensington, MD", major: "Electrical Engineering", username: "landiscs" },
   { name: "Zander Matthew Tamez", hometown: "Monee, IL", major: "Mechanical Engineering", username: "tamezzm" },
   { name: "John Bentley Webb", hometown: "Poulsbo, WA", major: "Electrical Engineering", username: "webbjb" },
-  { name: "Erik Bintin", hometown: "Arlington, VA", major: "Mechanical Engineering", username: "winstoe" },
+  { name: "Ewik Bintin", hometown: "Arlington, VA", major: "Mechanical Engineering", username: "winstoe" },
 ];
 
 var sophomores = [
@@ -47,7 +45,7 @@ var sophomores = [
 ];
 
 var freshman = [
-  
+
 ];
 
 
@@ -171,7 +169,7 @@ function getHoverUWU() {
     isImageValid("img/plz_don't_look/" + user + ".PNG").then(isValid => {
       if (isValid) {
         $(identity).hover(() => $(identity).attr("src", "img/plz_don't_look/" + user + ".PNG"), () => $(identity).attr("src", "img/portraits/" + user + ".jpg"));
-      } 
+      }
       // else {
       //     console.log('Image is invalid');
       // }
