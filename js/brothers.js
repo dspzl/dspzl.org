@@ -42,7 +42,14 @@ var sophomores = [
   { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
   { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" },
   { name: "Logan Daniel Fiorito-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
-  { name: "Brenden James Warren", hometown: "Crawfordsville, Indiana", major: "Mechanical Engineering", username: "warrenbj"},
+  { name: "Brenden James Warren", hometown: "Crawfordsville, IN", major: "Mechanical Engineering", username: "warrenbj"},
+    {name: "Henry Norman Cechini", hometown: "Portland, OR", major: "Mechanical Engineering", username: "cechinhn" },
+    {name: "Avery Liam Rudder", hometown: "Westfield, IN", major: "Chemical Engineering", username: "rudderal" },
+    {name: "H.M. Ibtihal Utsho", hometown: "Thakurgaon, Bangladesh", major: "Computer Engineering", username: "utshoh" },
+    {name: "Matthew Alexander Hamilton", hometown: "Manchester, United Kingdom", major: "Computer Science", username: "hamiltma" },
+    {name: "Christopher Anthony Renda Jr", hometown: "Round Lake, IL", major: "Software Engineering", username: "rendaca" },
+    {name: "Aidan Kristopher Lee Arnold", hometown: "Indianapolis, IN", major: "Biomedical Engineering", username: "arnoldak" },
+    {name: "Mathias (Mac) William Rambur", hometown: "Carlsbad, CA", major: "Mechanical Engineering", username: "ramburmw" },
 ];
 
 var freshman = [
