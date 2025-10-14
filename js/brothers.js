@@ -103,7 +103,7 @@ function buildSection(section) {
     </div>
   </div>
   <div class="parallax-container-mobile">
-    <div class="porch parallax-mobile"><img src="img/brothers/porch-pic-2023-Richard.jpg"></div>
+    <div class="porch parallax-mobile"><img src="img/brothers/porch-pic-2025.jpg"></div>
   </div>
   `;
   $("#grades").append(html);
