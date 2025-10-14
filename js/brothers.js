@@ -2,6 +2,7 @@
 
 var seniors = [
   { name: "Asher Lennon Blythe", hometown: "Galveston, TX", major: "Mechanical Engineering", username: "blytheal" },
+    { name: "Brody Keaton Smith", hometown: "Talbott, TN", major: "Computer Science", username: "smithbk" },
   { name: "Kyle Benjamin Broeker", hometown: "Newburgh, IN", major: "Mechanical Engineering", username: "broekekb" },
   { name: "Ryan Matthew Burch", hometown: "Brownsburg, IN", major: "Mechanical Engineering", username: "burchrm" },
   { name: "Noah Robert Gerschutz", hometown: "Carey, OH", major: "Civil Engineering", username: "gerschnr" },
