@@ -6,12 +6,12 @@ var elected = [
   { position: 'House Director', name: "Cale Everroad", username:"everrocd"},
   { position: 'Secretary', name:"Payton Hudson Sprinkle", username:"sprinkph" },
   { position: 'Philanthropy Director', name: "Michael Riedeman Jr.", username:"riedemenmj"},
-  { position: 'Sergeant-at-Arms', name:'Jacob Marsh', username:"marshja" },
+  { position: 'Sergeant-at-Arms', name:'Oliver Estes', username:"esteso" },
   { position: 'Rush Director', name: "Sean Rody", username:"rodysb" },
   { position: 'Rush Director', name: "Caleb Heldman", username:"heldmacj"},
   { position: 'Social Director', name: "Ethan Minckler", username:"mincklec"},
   { position: 'Bid Selection Committee Chairman', name: "Erik Winston", username:"winstoe"},
-  { position: 'New Member Educator', name: "Ryan Burch", username:"burchrm" }
+  { position: 'New Member Educator', name: "Noah Gerschutz", username:"gerschnr" }
 ];
 
 var appointed = [
