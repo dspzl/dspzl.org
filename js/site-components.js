@@ -21,24 +21,25 @@ const pageList = `
 `;
 
 const hareList = `
-  <li><a href="pdf/hare-spring-2008-2009.pdf">Spring 2008-09</a></li>
-  <li><a href="pdf/hare-fall-2009-2010.pdf">Fall 2009-10</a></li>
-  <li><a href="pdf/hare-winter-2009-2010.pdf">Winter 2009-10</a></li>
-  <li><a href="pdf/hare-spring-2009-2010.pdf">Spring 2009-10</a></li>
-  <li><a href="pdf/hare-fall-2010-2011.pdf">Fall 2010-11</a></li>
-  <li><a href="pdf/hare-winter-2010-2011.pdf">Winter 2010-11</a></li>
-  <li><a href="pdf/hare-spring-2012-2013.pdf">Spring 2012-13</a></li>
-  <li><a href="pdf/hare-spring-2013-2014.pdf">Spring 2013-14</a></li>
-  <li><a href="pdf/hare-winter-2015-2016.pdf">Winter 2015-16</a></li>
-  <li><a href="pdf/hare-winter-2016-2017.pdf">Winter 2016-17</a></li>
-  <li><a href="pdf/hare-spring-2016-2017.pdf">Spring 2016-17</a></li>
-  <li><a href="pdf/hare-fall-2017-2018.pdf">Fall 2017-18</a></li>
-  <li><a href="pdf/hare-winter-2017-2018.pdf">Winter 2017-18</a></li>
-  <li><a href="pdf/hare-fall-2018-2019.pdf">Fall 2018-19</a></li>
-  <li><a href="pdf/hare-spring-2018-2019.pdf">Spring 2018-19</a></li>
-  <li><a href="pdf/hare-fall-2019-2020.pdf">Fall 2019-20</a></li>
-  <li><a href="pdf/hare-winter-2019-2020.pdf">Winter 2019-20</a></li>
+  <li><a href="pdf/hare-fall-2025-2026.pdf">Fall 2025-26</a></li>
   <li><a href="pdf/hare-fall-2020-2021.pdf">Fall 2020-21</a></li>
+  <li><a href="pdf/hare-winter-2019-2020.pdf">Winter 2019-20</a></li>
+  <li><a href="pdf/hare-fall-2019-2020.pdf">Fall 2019-20</a></li>
+  <li><a href="pdf/hare-spring-2018-2019.pdf">Spring 2018-19</a></li>
+  <li><a href="pdf/hare-fall-2018-2019.pdf">Fall 2018-19</a></li>
+  <li><a href="pdf/hare-winter-2017-2018.pdf">Winter 2017-18</a></li>
+  <li><a href="pdf/hare-fall-2017-2018.pdf">Fall 2017-18</a></li>
+  <li><a href="pdf/hare-spring-2016-2017.pdf">Spring 2016-17</a></li>
+  <li><a href="pdf/hare-winter-2016-2017.pdf">Winter 2016-17</a></li>  
+  <li><a href="pdf/hare-winter-2015-2016.pdf">Winter 2015-16</a></li>
+  <li><a href="pdf/hare-spring-2013-2014.pdf">Spring 2013-14</a></li>
+  <li><a href="pdf/hare-spring-2012-2013.pdf">Spring 2012-13</a></li>
+  <li><a href="pdf/hare-winter-2010-2011.pdf">Winter 2010-11</a></li>
+  <li><a href="pdf/hare-fall-2010-2011.pdf">Fall 2010-11</a></li>
+  <li><a href="pdf/hare-spring-2009-2010.pdf">Spring 2009-10</a></li>
+  <li><a href="pdf/hare-winter-2009-2010.pdf">Winter 2009-10</a></li>
+  <li><a href="pdf/hare-fall-2009-2010.pdf">Fall 2009-10</a></li>
+  <li><a href="pdf/hare-spring-2008-2009.pdf">Spring 2008-09</a></li>
 `;
 
 
