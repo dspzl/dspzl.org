@@ -11,7 +11,7 @@ var seniors = [
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec" },
   { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej" },
   { name: "William Ryan Prusak", hometown: "Naperville, IL", major: "Mechanical Engineering", username: "prusakwr" },
-  { name: "Sean Barrie Rody", hometown: "Frenchtown, MT", major: "Computer Engineering", username: "rodysb" },
+  { name: "Sean Barrie Rody", hometown: "Frenchtown, MT", major: "Filthy Civil", username: "rodysb" },
   { name: "William Henry Scholten III", hometown: "Hudsonville, MI", major: "Computer Engineering", username: "scholtwh" },
   { name: "Jeremiah 'Mc'Sweeny 'with no Mc'", hometown: "Indianapolis, IN", major: "Mechanical Engineering", username: "sweenyj" },
   { name: "Jake Richard Vincent", hometown: "Valparaiso, IN", major: "Mechanical Engineering", username: "vincenjr" },
