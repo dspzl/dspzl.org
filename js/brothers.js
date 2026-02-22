@@ -51,16 +51,16 @@ var sophomores = [
   { name: "Aidan Kristopher Lee Arnold", hometown: "Indianapolis, IN", major: "Biomedical Engineering", username: "arnoldak" },
   { name: "Mathias (Mac) William Rambur", hometown: "Carlsbad, CA", major: "Mechanical Engineering", username: "ramburmw" },
   { name: "Lawson Liang Zhou", hometown: "Savannah, GA", major: "Mechanical Engineering", username: "zhoull" },
+  { name: "Mushfiq Alam", hometown: "Dhaka, Bangladesh", major: "Computer Science", username: "alamm1" },
+  { name: "Anthony Flores", hometown: "Mission Hills, CA", major: "Mechanical Engineering", username: "floresa" },
 ];
 
 var freshman = [
   { name: "Logan James Berry", hometown: "Carmel, IN", major: "Mechanical Engineering", username: "berrylj" },
   { name: "John Huang", hometown: "Las Vegas, NV", major: "Mechanical Engineering", username: "huangj15" },
   { name: "Matthew David Rudolph", hometown: "Cincinnati, OH", major: "Electrical Engineering", username: "rudolphmd" },
-  { name: "Mushfiq Alam", hometown: "Dhaka, Bangladesh", major: "Computer Science", username: "alamm1" },
   { name: "Samuel Anthony Drong", hometown: "Lockport, IL", major: "Mechanical Engineering", username: "drongsa" },
   { name: "John Riley Yost", hometown: "Cincinnati, OH", major: "Computer Engineering", username: "yostjr1" },
-  { name: "Anthony Flores", hometown: "Mission Hills, CA", major: "Mechanical Engineering", username: "floresa" },
     { name: "Joseph Thomas Long (JT)", hometown: "Detroit, MI", major: "Electrical Engineering", username: "longj1" },
   { name: "Luke Landon Lawson", hometown: "Clayton, IN", major: "Mechanical Engineering", username: "lawsonll" },
 ];
