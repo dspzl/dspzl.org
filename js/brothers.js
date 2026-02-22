@@ -34,21 +34,20 @@ var juniors = [
 var sophomores = [
   { name: "Cam Ransdell Baylor", hometown: "Lincoln, NE", major: "Mechanical Engineering", username: "baylorcr" },
   { name: "Alexander Naismith Carpenter", hometown: "Philpot, KY", major: "Biomedical Engineering", username: "carpena1" },
-  { name: "Ryan Andrew Hung", hometown: "Irvine, CA", major: "Computer Science", username: "hungra" },
+  // { name: "Ryan Andrew Hung", hometown: "Irvine, CA", major: "Computer Science", username: "hungra" },
   { name: "Nate Christopher Nielsen", hometown: "Dallas, TX", major: "Electrical Engineering", username: "nielsenc" },
   { name: "Charles Joseph Frederick Northrop", hometown: "Warsaw, IN", major: "Computer Science", username: "northrcf" },
-  { name: "Layth Khalil Rahman", hometown: "Lexington, KY", major: "Software Engineering", username: "rahmanlk" },
-  { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" },
+  // { name: "Layth Khalil Rahman", hometown: "Lexington, KY", major: "Software Engineering", username: "rahmanlk" },
+    { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" }, //Soon to drop
   { name: "Payton Hudson Sprinkle", hometown: "Fort Wayne, IN", major: "Mathematics", username: "sprinkph" },
   { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
-  { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" },
-  { name: "Logan Daniel Fiorito-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
+    { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" }, //Soon to drop
+  // { name: "Logan Daniel Fiorito-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
   { name: "Brenden James Warren", hometown: "Crawfordsville, IN", major: "Mechanical Engineering", username: "warrenbj"},
   { name: "Henry Norman Cechini", hometown: "Portland, OR", major: "Mechanical Engineering", username: "cechinhn" },
   { name: "Avery Liam Rudder", hometown: "Westfield, IN", major: "Chemical Engineering", username: "rudderal" },
-  { name: "H.M. Ibtihal Utsho", hometown: "Thakurgaon, Bangladesh", major: "Computer Engineering", username: "utshoh" },
-  { name: "Matthew Alexander Hamilton", hometown: "Manchester, United Kingdom", major: "Computer Science", username: "hamiltma" },
-  { name: "Christopher Anthony Renda Jr", hometown: "Round Lake, IL", major: "Software Engineering", username: "rendaca" },
+    { name: "Matthew Alexander Hamilton", hometown: "Manchester, United Kingdom", major: "Computer Science", username: "hamiltma" }, //Alum
+    { name: "Christopher Anthony Renda Jr", hometown: "Round Lake, IL", major: "Software Engineering", username: "rendaca" }, //Alum
   { name: "Aidan Kristopher Lee Arnold", hometown: "Indianapolis, IN", major: "Biomedical Engineering", username: "arnoldak" },
   { name: "Mathias (Mac) William Rambur", hometown: "Carlsbad, CA", major: "Mechanical Engineering", username: "ramburmw" },
 ];
@@ -61,7 +60,7 @@ var freshman = [
   { name: "Samuel Anthony Drong", hometown: "Lockport, IL", major: "Mechanical Engineering", username: "drongsa" },
   { name: "John Riley Yost", hometown: "Cincinnati, OH", major: "Computer Engineering", username: "yostjr1" },
   { name: "Anthony Flores", hometown: "Mission Hills, CA", major: "Mechanical Engineering", username: "floresa" },
-  { name: "Joseph Thomas Long (JT)", hometown: "Detroit, MI", major: "Electrical Engineering", username: "longj1" },
+    { name: "Joseph Thomas Long (JT)", hometown: "Detroit, MI", major: "Electrical Engineering", username: "longj1" },
   { name: "Lawson Liang Zhou", hometown: "Savannah, GA", major: "Mechanical Engineering", username: "zhoull" },
   { name: "Luke Landon Lawson", hometown: "Clayton, IN", major: "Mechanical Engineering", username: "lawsonll" },
 ];
