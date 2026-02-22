@@ -140,7 +140,7 @@ if (sophomores != null && sophomores.length != 0) {
   buildContainer(sophomores, "#sophomores-container");
   $("#brothers-content").append(`<li><a href="#sophomores">Sophomores</a></li>`);
 }
-if (freshmen != null && freshmen.length != 0) {
+if (freshman != null && freshmen.length != 0) {
   buildSection("freshmen");
   buildContainer(freshmen, "#freshmen-container");
   $("#brothers-content").append(`<li><a href="#freshmen">Freshmen</a></li>`);
