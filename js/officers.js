@@ -1,36 +1,36 @@
 var elected = [
-  { position: 'President', name: "Jake Vincent", username:"vincenjr" },
-  { position: 'Vice President', name: "Jeremiah Sweeny", username: "sweenyj" },
-  { position: 'Treasurer', name: "Ethan Parsons", username: "parsonej" },
-  { position: 'Steward', name: "Joshua Jue", username:"juejw" },
-  { position: 'House Director', name: "Cale Everroad", username:"everrocd"},
-  { position: 'Secretary', name:"Payton Hudson Sprinkle", username:"sprinkph" },
-  { position: 'Philanthropy Director', name: "Michael Riedeman Jr.", username:"riedemenmj"},
-  { position: 'Sergeant-at-Arms', name:'Oliver Estes', username:"esteso" },
-  { position: 'Rush Director', name: "Sean Rody", username:"rodysb" },
-  { position: 'Rush Director', name: "Caleb Heldman", username:"heldmacj"},
-  { position: 'Social Director', name: "Ethan Minckler", username:"mincklec"},
-  { position: 'Bid Selection Committee Chairman', name: "Erik Winston", username:"winstoe"},
-  { position: 'New Member Educator', name: "Noah Gerschutz", username:"gerschnr" }
+  { position: 'President', name: "Caleb John Heldman", username:"heldmacj" },
+  { position: 'Vice President', name: "Oliver O'Dell Estes", username: "esteso" },
+  { position: 'Treasurer', name: "Nate Christopher Nielsen", username: "nielsenc" },
+  { position: 'Steward', name: "Aidan Kristopher Lee Arnold", username: "arnoldak" },
+  { position: 'House Director', name: "Payton Hudson Sprinkle", username: "sprinkph"},
+  { position: 'Secretary', name: "Matthew David Rudolph", username: "rudolphmd" },
+  { position: 'Philanthropy Director', name: "Alexander Naismith Carpenter", username: "carpena1"},
+  { position: 'Sergeant-at-Arms', name: "C.J. Northrop", username: "northrcf" },
+  { position: 'Rush Director', name: "Cam Ransdell Baylor", username: "baylorcr" },
+  { position: 'Rush Director', name: "Charlie Stephen Landis", username: "landiscs"},
+  { position: 'Social Director', name: "John Bentley Webb", username: "webbjb"},
+  { position: 'Bid Selection Committee Chairman', name: "Erik Winston", username: "winstoe"},
+  { position: 'New Member Educator', name: "Philip Scott Bernauer", username: "bernaups" }
 ];
 
 var appointed = [
-  { position:'Activities Director', name:'Kyle Broeker', username:"broekekb" },
-  { position: 'Athletics Director', name: "Vincent Donovan Hammer", username:"hammervd" },
-  { position: 'Interfraternity Council Representative', name:'Payton Sprinkle', username:"sprinkph" },
-  { position: 'Public Relations Director', name: "Ethan Conner Minckler", username:"mincklec" },
-  { position: 'Alumni Director', name:"Dane Verkouteren", username:"verkoudc" },
-  { position: 'Chaplain', name: "Erik Winston", username:"winstoe" },
-  { position: 'Editor', name: "Payton Sprinkle", username:"sprinkph" },
-  { position: 'Historian', name: "Marcus Yoo", username:"yoomj" },
-  { position: 'Technology Director', name: "Olivier Estes", username:"esteso" },
-  { position: 'Webmaster', name: "Ryan Hung", username:"hungra" },
-  { position: 'Student Government Association Representative', name: "Nate Nielsen", username:"nielsenc" },
+  { position: 'Activities Director', name: "Sebastian Thomas Choy", username: "choys" },
+  { position: 'Athletics Director', name: "Brenden James Warren", username: "warrenbj" },
+  { position: 'Interfraternity Council Representative', name: "Samuel Anthony Drong", username: "drongsa" },
+  { position: 'Public Relations Director', name: "Ethan Conner Minckler", username: "mincklec" },
+  { position: 'Alumni Director', name: "John Huang", username: "huangj15" },
+  { position: 'Chaplain', name: "Mathias (Mac) William Rambur", username: "ramburmw" },
+  { position: 'Editor', name: "Matthew David Rudolph", username: "rudolphmd" },
+  { position: 'Historian', name: "Lawson Liang Zhou", username: "zhoull" },
+  { position: 'Technology Director', name: "Payton Hudson Sprinkle", username: "sprinkph" },
+  { position: 'Webmaster', name: "C.J. Northrop", username: "northrcf" },
+  { position: 'Student Government Association Representative', name: "Cam Ransdell Baylor", username: "baylorcr" },
 ];
 
 var advisors = [
-  { position:'Professor of Electrical and Computer Engineering', name:'Dr. Marc Herniter', username:"herniter" },
-  { position:'Physics & Optical Engineering Department Technician', name:'Ben Webster', username:"webster" }
+  { position:'Professor of Electrical and Computer Engineering', name: "Dr. Marc Herniter", username: "herniter" },
+  { position:'Physics & Optical Engineering Department Technician', name: "Ben Webster", username: "webster" }
 ];
 
 function getOfficerCard(brother){
