@@ -1,5 +1,6 @@
 var dogs = [
     { name: "Scooby Doo", hometown: "The Trenches", talent: "Talent: Fetching the bag", owner: "&#916;&#931;&#934; &#918;&#923;", username: "mink2"},
+    { name: "Marshy", hometown: "The Rice Feilds", talent: "Vape Consumption", owner: "&#916;&#931;&#934; &#918;&#923;", username: "Marshy"},
 ];
 
 function getDogsCard(dog){

@@ -7,7 +7,7 @@ var seniors = [
   { name: "Ryan Matthew Burch", hometown: "Brownsburg, IN", major: "Mechanical Engineering", username: "burchrm" },
   { name: "Noah Robert Gerschutz", hometown: "Carey, OH", major: "Civil Engineering", username: "gerschnr" },
   { name: "Joshua Wai Kit Jue", hometown: "San Francisco, CA", major: "Computer Science", username: "juejw" },
-  { name: "Jacob Alexander Makrsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
+  // { name: "Jacob Alexander Makrsh", hometown: "San Diego, CA", major: "Computer Science", username: "marshja" },
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec" },
   { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej" },
   { name: "William Ryan Prusak", hometown: "Naperville, IL", major: "Mechanical Engineering", username: "prusakwr" },
@@ -37,7 +37,7 @@ var sophomores = [
   { name: "Nate Christopher Nielsen", hometown: "Dallas, TX", major: "Electrical Engineering", username: "nielsenc" },
   { name: "Charles Joseph Frederick Northrop", hometown: "Warsaw, IN", major: "Computer Science", username: "northrcf" },
   // { name: "Layth Khalil Rahman", hometown: "Lexington, KY", major: "Software Engineering", username: "rahmanlk" },
-    { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" }, //Soon to drop
+  // { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" }, //Soon to drop
   { name: "Payton Hudson Sprinkle", hometown: "Fort Wayne, IN", major: "Mathematics", username: "sprinkph" },
   { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
     { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" }, //Soon to drop
