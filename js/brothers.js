@@ -40,7 +40,7 @@ var sophomores = [
   // { name: "Michael Joseph Riedeman Jr.", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "riedemenmj" }, //Soon to drop
   { name: "Payton Hudson Sprinkle", hometown: "Fort Wayne, IN", major: "Mathematics", username: "sprinkph" },
   { name: "Dane Cooper Verkouteren", hometown: "Los Angeles, CA", major: "Computer Engineering", username: "verkoudc" },
-    { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" }, //Soon to drop
+  // { name: "Marcus Joonsuh Yoo", hometown: "Irvine, CA", major: "Mechanical Engineering", username: "yoomj" }, //Soon to drop
   // { name: "Logan Daniel Fiorito-Zendejas", hometown: "Lynnwood, WA", major: "Engineering Design", username: "fioritld" },
   { name: "Brenden James Warren", hometown: "Crawfordsville, IN", major: "Mechanical Engineering", username: "warrenbj"},
   { name: "Henry Norman Cechini", hometown: "Portland, OR", major: "Mechanical Engineering", username: "cechinhn" },
@@ -56,11 +56,11 @@ var sophomores = [
 
 var freshman = [
   { name: "Logan James Berry", hometown: "Carmel, IN", major: "Mechanical Engineering", username: "berrylj" },
-  { name: "John Huang", hometown: "Las Vegas, NV", major: "Mechanical Engineering", username: "huangj15" },
+  { name: "John \"Chud\" Huang", hometown: "Las Vegas, NV", major: "Mechanical Engineering", username: "huangj15" },
   { name: "Matthew David Rudolph", hometown: "Cincinnati, OH", major: "Electrical Engineering", username: "rudolphmd" },
   { name: "Samuel Anthony Drong", hometown: "Lockport, IL", major: "Mechanical Engineering", username: "drongsa" },
   { name: "John Riley Yost", hometown: "Cincinnati, OH", major: "Computer Engineering", username: "yostjr1" },
-    { name: "Joseph Thomas Long (JT)", hometown: "Detroit, MI", major: "Electrical Engineering", username: "longj1" }, //Alum
+  // { name: "Joseph Thomas Long (JT)", hometown: "Detroit, MI", major: "Electrical Engineering", username: "longj1" }, //Alum
   { name: "Luke Landon Lawson", hometown: "Clayton, IN", major: "Mechanical Engineering", username: "lawsonll" },
 ];
 
