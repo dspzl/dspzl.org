@@ -3,7 +3,7 @@
 var seniors = [
   { name: "Kyle Benjamin Broeker", hometown: "Newburgh, IN", major: "Mechanical Engineering", username: "broekekb" },
   { name: "Ethan Conner Minckler", hometown: "Anna, IN", major: "Mechanical Engineering", username: "mincklec" },
-  { name: "Ethan James Parsons", hometown: "Brownsburg, IN", major: "Computer Science", username: "parsonej" },
+  { name: "Ethan James Parsons", hometown: "Brownsburg, IL", major: "Computer Science", username: "parsonej" },
   { name: "Philllllip Scott Bernauer", hometown: "Indianapolis, IN", major: "Chemical Engineering", username: "bernaups" },
   { name: "Sebastian Thomas Choy", hometown: "Weehawken, NJ", major: "Mechanical Engineering", username: "choys" },
   { name: "Oliver O'Dell Estes", hometown: "Michigan City, IN", major: "Mechanical Engineering", username: "esteso" },
